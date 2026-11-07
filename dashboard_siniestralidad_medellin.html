@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Siniestralidad Vial Medellín</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Source+Serif+4:wght@400&display=swap">
+<style>
+:root{--bg:#f6f7f9;--fg:#16202b;--muted:#5d6876;--panel:#ffffff;--line:#e2e6eb;--ok:#2f7d4f;--warn:#a86a00;--bad:#c0392b;
+ --font-anthropic-sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--font-anthropic-serif:"Source Serif 4",Georgia,serif;
+ --cds-font-size-caption:12px;--cds-font-size-body:14px;--cds-font-size-heading:17px;--cds-font-size-title:28px;--cds-font-weight-medium:600;
+ --cds-gap-xs:4px;--cds-gap-sm:8px;--cds-gap-md:16px;--cds-gap-lg:24px;--cds-gap-xl:36px;--cds-pad-xs:4px;--cds-pad-sm:8px;--cds-pad-md:12px;--cds-pad-lg:18px;--cds-radius:8px;
+ --cds-dur-slow:.3s;--cds-chart-muted:#b8c1cc;--cds-chart-axis:#9aa4b0;--cds-chart-status-critical:#c0392b;--cds-surface-popover:#fff;--cds-border:#d5dbe2;--cds-shadow-popover:0 4px 14px rgba(20,30,45,.12);--cds-text-secondary:#5d6876}
+@media (prefers-color-scheme: dark){:root{--bg:#11161c;--fg:#e7ecf2;--muted:#9aa6b4;--panel:#19212a;--line:#2a3440;--ok:#5cc28a;--bad:#ff6b5e;--cds-chart-muted:#4a5664;--cds-chart-axis:#5d6876;--cds-surface-popover:#1f2832;--cds-border:#344150;--cds-text-secondary:#9aa6b4;color-scheme:dark}}
+:root{--color-fg:var(--fg);--color-fg-muted:var(--muted);--color-bg:var(--bg);--color-panel:var(--panel);--color-border-line:var(--line);--color-ok:var(--ok);--color-warn:var(--warn);--color-bad:var(--bad)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font-anthropic-sans)}
+#dash-root{max-width:1280px;margin:0 auto;padding:28px max(16px,3vw) 48px}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+/* Mini runtime: reemplaza el API del dashboard para que la página funcione sola */
+window.dash = (() => {
+  const DATA = {"victimas_resumen": [{"dimension": "anio", "codigo": "", "categoria": "2014", "victimas": "31411"}, {"dimension": "anio", "codigo": "", "categoria": "2015", "victimas": "32622"}, {"dimension": "anio", "codigo": "", "categoria": "2016", "victimas": "33791"}, {"dimension": "anio", "codigo": "", "categoria": "2017", "victimas": "31658"}, {"dimension": "anio", "codigo": "", "categoria": "2018", "victimas": "29082"}, {"dimension": "anio", "codigo": "", "categoria": "2019", "victimas": "31876"}, {"dimension": "anio", "codigo": "", "categoria": "2020", "victimas": "23676"}, {"dimension": "anio", "codigo": "", "categoria": "2021", "victimas": "21727"}, {"dimension": "condicion", "codigo": "", "categoria": "Motociclista", "victimas": "142167"}, {"dimension": "condicion", "codigo": "", "categoria": "Acompañante de moto", "victimas": "36159"}, {"dimension": "condicion", "codigo": "", "categoria": "Peatón", "victimas": "32395"}, {"dimension": "condicion", "codigo": "", "categoria": "Pasajero", "victimas": "13524"}, {"dimension": "condicion", "codigo": "", "categoria": "Conductor", "victimas": "6193"}, {"dimension": "condicion", "codigo": "", "categoria": "Ciclista", "victimas": "5405"}, {"dimension": "clase", "codigo": "", "categoria": "Choque", "victimas": "103383"}, {"dimension": "clase", "codigo": "", "categoria": "Otro", "victimas": "41162"}, {"dimension": "clase", "codigo": "", "categoria": "Atropello", "victimas": "39455"}, {"dimension": "clase", "codigo": "", "categoria": "Caída de ocupante", "victimas": "35098"}, {"dimension": "clase", "codigo": "", "categoria": "Volcamiento", "victimas": "16721"}, {"dimension": "clase", "codigo": "", "categoria": "Incendio", "victimas": "24"}, {"dimension": "gravedad", "codigo": "", "categoria": "Herido", "victimas": "233894"}, {"dimension": "gravedad", "codigo": "", "categoria": "Muerto", "victimas": "1949"}, {"dimension": "dia_semana", "codigo": "", "categoria": "Lun", "victimas": "34078"}, {"dimension": "dia_semana", "codigo": "", "categoria": "Mar", "victimas": "34750"}, {"dimension": "dia_semana", "codigo": "", "categoria": "Mié", "victimas": "34914"}, {"dimension": "dia_semana", "codigo": "", "categoria": "Jue", "victimas": "34568"}, {"dimension": "dia_semana", "codigo": "", "categoria": "Vie", "victimas": "34856"}, {"dimension": "dia_semana", "codigo": "", "categoria": "Sáb", "victimas": "34107"}, {"dimension": "dia_semana", "codigo": "", "categoria": "Dom", "victimas": "28570"}, {"dimension": "comuna", "codigo": "10", "categoria": "La Candelaria", "victimas": "36985"}, {"dimension": "comuna", "codigo": "05", "categoria": "Castilla", "victimas": "22883"}, {"dimension": "comuna", "codigo": "11", "categoria": "Laureles Estadio", "victimas": "19922"}, {"dimension": "comuna", "codigo": "07", "categoria": "Robledo", "victimas": "16693"}, {"dimension": "comuna", "codigo": "04", "categoria": "Aranjuez", "victimas": "14534"}, {"dimension": "comuna", "codigo": "15", "categoria": "Guayabal", "victimas": "14391"}, {"dimension": "comuna", "codigo": "16", "categoria": "Belén", "victimas": "13643"}, {"dimension": "comuna", "codigo": "14", "categoria": "El Poblado", "victimas": "12245"}, {"dimension": "comuna", "codigo": "09", "categoria": "Buenos Aires", "victimas": "9432"}, {"dimension": "comuna", "codigo": "03", "categoria": "Manrique", "victimas": "9421"}, {"dimension": "comuna", "codigo": "06", "categoria": "Doce de Octubre", "victimas": "8189"}, {"dimension": "comuna", "codigo": "08", "categoria": "Villa Hermosa", "victimas": "7713"}, {"dimension": "comuna", "codigo": "12", "categoria": "La América", "victimas": "6800"}, {"dimension": "comuna", "codigo": "13", "categoria": "San Javier", "victimas": "5014"}, {"dimension": "comuna", "codigo": "01", "categoria": "Popular", "victimas": "4448"}, {"dimension": "comuna", "codigo": "02", "categoria": "Santa Cruz", "victimas": "3750"}, {"dimension": "comuna", "codigo": "80", "categoria": "San Antonio de Prado", "victimas": "3602"}, {"dimension": "comuna", "codigo": "60", "categoria": "San Cristóbal", "victimas": "3094"}, {"dimension": "comuna", "codigo": "70", "categoria": "Altavista", "victimas": "717"}, {"dimension": "comuna", "codigo": "90", "categoria": "Santa Elena", "victimas": "614"}, {"dimension": "comuna", "codigo": "50", "categoria": "San Sebastián de Palmitas", "victimas": "27"}, {"dimension": "comuna", "codigo": "SI", "categoria": "Sin información (se imputa por coordenada)", "victimas": "21726"}], "incidentes_resumen": [{"dimension": "anio", "categoria": "2014", "incidentes": "22415"}, {"dimension": "anio", "categoria": "2015", "incidentes": "46172"}, {"dimension": "anio", "categoria": "2016", "incidentes": "47103"}, {"dimension": "anio", "categoria": "2017", "incidentes": "46205"}, {"dimension": "anio", "categoria": "2018", "incidentes": "43358"}, {"dimension": "anio", "categoria": "2019", "incidentes": "45795"}, {"dimension": "anio", "categoria": "2020", "incidentes": "19717"}, {"dimension": "gravedad", "categoria": "Con heridos", "incidentes": "150071"}, {"dimension": "gravedad", "categoria": "Solo daños", "incidentes": "119205"}, {"dimension": "gravedad", "categoria": "Con muertos", "incidentes": "1489"}], "camaras_por_comuna": [{"codigo_comuna": "04", "comuna": "Aranjuez", "camaras_ars": "5", "camaras_cctv": "0", "camaras_fdt": "1"}, {"codigo_comuna": "05", "comuna": "Castilla", "camaras_ars": "2", "camaras_cctv": "15", "camaras_fdt": "2"}, {"codigo_comuna": "06", "comuna": "Doce de Octubre", "camaras_ars": "1", "camaras_cctv": "0", "camaras_fdt": "0"}, {"codigo_comuna": "07", "comuna": "Robledo", "camaras_ars": "4", "camaras_cctv": "5", "camaras_fdt": "1"}, {"codigo_comuna": "09", "comuna": "Buenos Aires", "camaras_ars": "1", "camaras_cctv": "2", "camaras_fdt": "2"}, {"codigo_comuna": "10", "comuna": "La Candelaria", "camaras_ars": "8", "camaras_cctv": "15", "camaras_fdt": "8"}, {"codigo_comuna": "11", "comuna": "Laureles Estadio", "camaras_ars": "14", "camaras_cctv": "8", "camaras_fdt": "5"}, {"codigo_comuna": "12", "comuna": "La América", "camaras_ars": "5", "camaras_cctv": "1", "camaras_fdt": "1"}, {"codigo_comuna": "13", "comuna": "San Javier", "camaras_ars": "1", "camaras_cctv": "0", "camaras_fdt": "0"}, {"codigo_comuna": "14", "comuna": "El Poblado", "camaras_ars": "13", "camaras_cctv": "18", "camaras_fdt": "11"}, {"codigo_comuna": "15", "comuna": "Guayabal", "camaras_ars": "2", "camaras_cctv": "12", "camaras_fdt": "10"}, {"codigo_comuna": "16", "comuna": "Belén", "camaras_ars": "7", "camaras_cctv": "1", "camaras_fdt": "4"}, {"codigo_comuna": "60", "comuna": "San Cristóbal", "camaras_ars": "0", "camaras_cctv": "2", "camaras_fdt": "2"}, {"codigo_comuna": "90", "comuna": "Santa Elena", "camaras_ars": "0", "camaras_cctv": "0", "camaras_fdt": "2"}], "camaras_cctv": [{"id_camara": "CCTV-3", "nombre": "Restaurante Asia", "direccion": "Cl 16 Cr 30", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-4", "nombre": "Coca-Cola", "direccion": "Cr 64C Cl 67", "comuna": "Castilla", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-5", "nombre": "Autopista Norte - Zenu", "direccion": "Cr 64C Cl 104", "comuna": "Castilla", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-6", "nombre": "Autopista Norte - Solla", "direccion": "Cr 64AA Cl 113A", "comuna": "Castilla", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-7", "nombre": "Puente del Mico", "direccion": "Cr 63 Cl 77", "comuna": "Castilla", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-OBJ7", "nombre": "Estaciom Cisneros", "direccion": "Cr 63A Cl 38", "comuna": "La Candelaria", "tiene_snapshot": "No"}, {"id_camara": "CCTV-8", "nombre": "Terminal del Norte", "direccion": "Cr 64C Cl 78", "comuna": "Castilla", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-9", "nombre": "Horacio Toro", "direccion": "Cr 62 Cl 58", "comuna": "La Candelaria", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-10", "nombre": "Suramericana", "direccion": "Cr 63 Cl 48", "comuna": "Laureles Estadio", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-12", "nombre": "Bancolombia", "direccion": "Cr 49 Cl 30", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-13", "nombre": "Coltabaco", "direccion": "Cr 50 Cl 4", "comuna": "Guayabal", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-14", "nombre": "Aguacatala", "direccion": "Cr 49 Cl 7 Sur", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-15", "nombre": "Playa x Oriental", "direccion": "Cr 46 Cl 52", "comuna": "La Candelaria", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-17", "nombre": "Quebrada Tinajas", "direccion": "Cr 63A Cl 103", "comuna": "Castilla", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-20", "nombre": "High Light", "direccion": "Cr 43 Cl 14", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-21", "nombre": "Inem", "direccion": "Cr 49 Cl 7", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-22", "nombre": "Av 80", "direccion": "Cr 81 Cl 30", "comuna": "Belén", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-23", "nombre": "Sur Vivero", "direccion": "Cr 50FF Cl 8", "comuna": "Guayabal", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-25", "nombre": "Boca del Caribe", "direccion": "Cr 52 Cl 8S", "comuna": "Guayabal", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-26", "nombre": "Centro Empresarial Olaya", "direccion": "Cr 52 Cl14", "comuna": "Guayabal", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-OBJ26", "nombre": "Av.Regional paralela Tricentenario Qda. Minitas", "direccion": "Cr 63 Cl 94A", "comuna": "Castilla", "tiene_snapshot": "No"}, {"id_camara": "CCTV-27", "nombre": "Virgen Aguacatala", "direccion": "Cr 43A Cl 12 Sur", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-28", "nombre": "Astor", "direccion": "Cr 43A Cl 26", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-30", "nombre": "Trv Inferior con Tesoro", "direccion": "Tv 7A Dg 29D", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-32", "nombre": "Av Las Palmas - Urb. Punta Piedra", "direccion": "Cr 38 Cl 18", "comuna": "La Candelaria", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-33", "nombre": "Av Industriales - Ciudad del Río", "direccion": "Cr 48 Cl 18A", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-34", "nombre": "La Iguaná", "direccion": "Cl 54 Cr 70", "comuna": "Laureles Estadio", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-OBJ34", "nombre": "Conquistadores", "direccion": "Cr 63A Cl 38", "comuna": "Laureles Estadio", "tiene_snapshot": "No"}, {"id_camara": "CCTV-35", "nombre": "Autopista Norte - Parque Juanes", "direccion": "Cr 64C Cl 97", "comuna": "Castilla", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-37", "nombre": "Autopista Sur Sentido N-S - Leonisa 14 y 10", "direccion": "Cr 50 Cl 25", "comuna": "Guayabal", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-38", "nombre": "Av Bolivariana - Deprimido Músico", "direccion": "Cr 63D 42C", "comuna": "Laureles Estadio", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-39", "nombre": "Hotel 10", "direccion": "Cl 10A 34", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-40", "nombre": "Castipán", "direccion": "Cr 65 Tv 78", "comuna": "Castilla", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-41", "nombre": "Autopista Norte - Deprimido Feria de Ganado", "direccion": "Cr 64C Cl 104", "comuna": "Castilla", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-42", "nombre": "Frente AKT", "direccion": "Cl 37 Cr 50", "comuna": "La Candelaria", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-43", "nombre": "Av Las Vegas - Icollantas", "direccion": "Cr 48 Cl 7", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-45", "nombre": "Intersec Bomberos", "direccion": "Cr 37 Cl 47", "comuna": "La Candelaria", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-46", "nombre": "Fatelares", "direccion": "Cr 57 Cl 58A", "comuna": "La Candelaria", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-47", "nombre": "Puente de La 10 sobre Av. Regional", "direccion": "Cl 10 Cr 50", "comuna": "Guayabal", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-48", "nombre": "Aeroparque", "direccion": "Cr 70 Cl14", "comuna": "Guayabal", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-49", "nombre": "Éxito Unicentro", "direccion": "Cl 34 Cr 66B", "comuna": "Laureles Estadio", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-50", "nombre": "Carlos E. Restrepo", "direccion": "Cr 65 Cl 55", "comuna": "Laureles Estadio", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-51", "nombre": "Postobón", "direccion": "Cr 50 Cl 25", "comuna": "Guayabal", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-52", "nombre": "Colcafé", "direccion": "Cr 50 Cl 7 Sur", "comuna": "Guayabal", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-53", "nombre": "Deprimido Glorieta Aguacatala", "direccion": "Cl 12 Sur Cr 48B", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-54", "nombre": "Glorieta Exposiciones", "direccion": "Cr 62 Cl 40", "comuna": "La Candelaria", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-55", "nombre": "Barrio Triste", "direccion": "Cr 59 Cl 44", "comuna": "La Candelaria", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-56", "nombre": "Bomberos Liberta", "direccion": "Cr 62 Cl 49", "comuna": "La Candelaria", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-57", "nombre": "Cristo Rey", "direccion": "Cr 52 Cl 3 Sur", "comuna": "Guayabal", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-58", "nombre": "Belalcázar", "direccion": "Cr 64C Cl 102E", "comuna": "Castilla", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-59", "nombre": "EPS Sura Castilla", "direccion": "Cr 65 Cl 97", "comuna": "Castilla", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-60", "nombre": "Tanques Ecopetrol", "direccion": "Cr 64C Cl 88A", "comuna": "Castilla", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-61", "nombre": "CAI López de Mesa", "direccion": "Cr 80 Cl 80", "comuna": "Robledo", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-62", "nombre": "Pilarica", "direccion": "Cr 72B Cl 73", "comuna": "Robledo", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-63", "nombre": "Universidad Nacional", "direccion": "Cr 64C Cl 58", "comuna": "Robledo", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-64", "nombre": "Minorista", "direccion": "Cr 62 Cl 55", "comuna": "La Candelaria", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-65", "nombre": "Angus Brangus", "direccion": "Cr 42 Cl 31A", "comuna": "Buenos Aires", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-66", "nombre": "Chuscalito", "direccion": "Cr 22 Cl 16", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-67", "nombre": "Castropol", "direccion": "Cr 43A Cl 14", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-68", "nombre": "Carulla Oviedo", "direccion": "Cr 43C Cl 4S", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-69", "nombre": "Glorieta Bulerías", "direccion": "Tv 39B Cl 70", "comuna": "Laureles Estadio", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-70", "nombre": "Villa Nueva", "direccion": "Cr 47 Cl 58", "comuna": "La Candelaria", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-71", "nombre": "Tugó", "direccion": "Cr 49 Cl 17 Sur", "comuna": "", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-72", "nombre": "Ford Las Vegas", "direccion": "Cr 48 Cl 16 Sur", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-73", "nombre": "Cent C. Santa Fe", "direccion": "Cr 38 Cl 9 Sur", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-74", "nombre": "Clinica Clofan", "direccion": "Cr 48 Cl 20", "comuna": "El Poblado", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-OBJ74", "nombre": "Avenida Paralela Avenida Paralela", "direccion": "Carrera 63 No. 111 EE-04", "comuna": "Castilla", "tiene_snapshot": "No"}, {"id_camara": "CCTV-OBJ75", "nombre": "Blanquizal", "direccion": "Km 4,1 en vía a Occidente", "comuna": "Robledo", "tiene_snapshot": "No"}, {"id_camara": "CCTV-75", "nombre": "Zoológico", "direccion": "Cr 52 Cl 20", "comuna": "Guayabal", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-76", "nombre": "Sena", "direccion": "Cr 57 Cl 50", "comuna": "La Candelaria", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-OBJ76", "nombre": "Guayabal", "direccion": "Cr 52 x Cll 12 sur", "comuna": "Guayabal", "tiene_snapshot": "No"}, {"id_camara": "CCTV-77", "nombre": "El Castillo", "direccion": "Cr 83C Cl 33", "comuna": "Laureles Estadio", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-OBJ77", "nombre": "La Central", "direccion": "Carrera 21 x calle 49", "comuna": "Buenos Aires", "tiene_snapshot": "No"}, {"id_camara": "CCTV-OBJ78", "nombre": "Puente Guayaquil", "direccion": "Cr 50 x Cll 30", "comuna": "", "tiene_snapshot": "No"}, {"id_camara": "CCTV-78", "nombre": "Everest", "direccion": "Cr 89 Cl 44", "comuna": "La América", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-79", "nombre": "Túnel de Occidente", "direccion": "Cr 108BB Cl 62D", "comuna": "San Cristóbal", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-OBJ79", "nombre": "Puente Madre Laura", "direccion": "Cr 63 Cl 94", "comuna": "Castilla", "tiene_snapshot": "No"}, {"id_camara": "CCTV-80", "nombre": "La Florida", "direccion": "Cr 65 Cl 71", "comuna": "Robledo", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-OBJ80", "nombre": "Puente San Juan", "direccion": "Carrera 62 x Calle 43", "comuna": "La Candelaria", "tiene_snapshot": "No"}, {"id_camara": "CCTV-81", "nombre": "Vivero Túnel de Occidente", "direccion": "Cr 134 Cl 59", "comuna": "San Cristóbal", "tiene_snapshot": "Sí"}, {"id_camara": "CCTV-OBJ81", "nombre": "Regional Tierragro", "direccion": "Carrera 54 x Calle 32A", "comuna": "La Candelaria", "tiene_snapshot": "No"}], "reglas_depuracion": [{"id_regla": "v1", "fuente": "Víctimas", "problema": "Filas vacías de relleno (CSV completado hasta el límite de Excel)", "filas_afectadas": "812475", "accion": "Eliminadas"}, {"id_regla": "v2", "fuente": "Víctimas", "problema": "Comuna \"Sin Inf\"", "filas_afectadas": "21726", "accion": "Imputada con el polígono oficial si hay coordenada"}, {"id_regla": "v3", "fuente": "Víctimas", "problema": "Sin coordenadas", "filas_afectadas": "20845", "accion": "Se conservan con bandera sin_coordenada"}, {"id_regla": "v4", "fuente": "Víctimas", "problema": "Coordenada fuera de la caja de Medellín (incluye lat/lon invertidas)", "filas_afectadas": "2116", "accion": "Invertidas se corrigen; el resto se anula"}, {"id_regla": "v5", "fuente": "Víctimas", "problema": "Edad \"Sin Inf\" o vacía", "filas_afectadas": "2414", "accion": "Nulo"}, {"id_regla": "v6", "fuente": "Víctimas", "problema": "Edad 0 o mayor de 100", "filas_afectadas": "1339", "accion": "Nulo y grupo de edad recalculado"}, {"id_regla": "v7", "fuente": "Víctimas", "problema": "Sexo \"Sin Inf\" / \"Sin inf\"", "filas_afectadas": "2477", "accion": "Nulo"}, {"id_regla": "v8", "fuente": "Víctimas", "problema": "Duplicados exactos", "filas_afectadas": "197", "accion": "Cuarentena"}, {"id_regla": "v9", "fuente": "Víctimas", "problema": "Condición con mayúsculas distintas (Acompañante de Motocicleta/motocicleta)", "filas_afectadas": "7257", "accion": "Unificado"}, {"id_regla": "i1", "fuente": "Incidentes", "problema": "Coordenada comodín [-75.7037, 6.2214]", "filas_afectadas": "19613", "accion": "Anulada"}, {"id_regla": "i2", "fuente": "Incidentes", "problema": "Comuna vacía, 0, In, AU, No Georef o Sin Inf", "filas_afectadas": "19861", "accion": "Nulo e imputada por polígono"}, {"id_regla": "i3", "fuente": "Incidentes", "problema": "Año con \\r literal (2019\\r)", "filas_afectadas": "26760", "accion": "Se extraen los dígitos"}, {"id_regla": "i4", "fuente": "Incidentes", "problema": "Texto con escapes hexadecimales (Solo da\\xF1os)", "filas_afectadas": "20560", "accion": "Decodificado"}, {"id_regla": "i5", "fuente": "Incidentes", "problema": "Variantes de \"Caída de ocupante\"", "filas_afectadas": "6527", "accion": "Unificado"}, {"id_regla": "i6", "fuente": "Incidentes", "problema": "Radicado repetido", "filas_afectadas": "34", "accion": "Cuarentena"}, {"id_regla": "c1", "fuente": "Cámaras", "problema": "CCTV sin enlace de foto o con enlace roto", "filas_afectadas": "11", "accion": "Se conservan sin snapshot"}, {"id_regla": "c2", "fuente": "Cámaras", "problema": "ARS con geometría vacía y nombre en blanco", "filas_afectadas": "2", "accion": "Descartadas"}], "embudo_victimas": [{"paso": "1", "etapa": "Filas en el archivo", "filas": "1048317"}, {"paso": "2", "etapa": "Filas con datos", "filas": "235843"}, {"paso": "3", "etapa": "Sin duplicados", "filas": "235646"}]};
+  const calcs = {}, draws = {}, cache = {};
+  const ok = (rows) => ({ status: 'ok', data: rows, rows, columns: rows.length ? Object.keys(rows[0]) : [], refreshing: false, meta: [] });
+  const get = (id) => {
+    if (DATA[id]) return ok(DATA[id]);
+    if (calcs[id]) { if (!cache[id]) { const c = calcs[id]; cache[id] = c.fn(...c.inputs.map((i) => get(i).data)); } return ok(cache[id]); }
+    return { status: 'missing', data: [], rows: [], columns: [] };
+  };
+  const css = getComputedStyle(document.documentElement);
+  const colors = ['#2f6fb0', '#c2552d', '#3f8f6b', '#8a5bb5', '#b58a1f', '#2b8c99', '#b5476b', '#6b7280'];
+  const run = (name) => document.querySelectorAll(`[data-draw="${name}"]`).forEach((el) => { try { draws[name](el); } catch (e) { console.error(name, e); } });
+  const runAll = () => Object.keys(draws).forEach(run);
+  let t; window.addEventListener('resize', () => { clearTimeout(t); t = setTimeout(runAll, 150); });
+  document.addEventListener('DOMContentLoaded', runAll);
+  return {
+    data: get, colors,
+    calc: (id, spec) => { calcs[id] = spec; },
+    loader: () => {}, onData: (fn) => fn(), params: () => ({}), setParams: () => {}, resetParams: () => {}, setLink: () => {}, refresh: () => {},
+    draw: (name, fn) => { if (fn === undefined) return run(name); draws[name] = typeof fn === 'function' ? fn : (el) => fn.update(el, fn.mount(el)); if (document.readyState !== 'loading') run(name); },
+  };
+})();
+</script>
+</head><body><div id="dash-root">
+<style>
+  .sv { display: flex; flex-direction: column; gap: var(--cds-gap-xl); font-family: var(--font-anthropic-sans); }
+  .sv h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+  .sv h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+  .sv h3 { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); margin: 0; }
+  .sv p { margin: 0; }
+  .sv .lede { color: var(--color-fg); max-width: 70ch; line-height: 1.5; }
+  .sv .lede b, .sv .note b { font-weight: var(--cds-font-weight-medium); font-variant-numeric: tabular-nums; }
+  .sv .note { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); line-height: 1.45; }
+  .sv .head { display: flex; flex-direction: column; gap: var(--cds-gap-sm); }
+  .sv .badge { align-self: flex-start; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); border: 1px solid var(--color-border-line); border-radius: 999px; padding: 2px var(--cds-pad-sm); }
+  .sv section { display: flex; flex-direction: column; gap: var(--cds-gap-md); }
+  .sv .grid { display: grid; gap: var(--cds-gap-md); grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); }
+  .sv .card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); min-width: 0; }
+  .sv .tiles { display: grid; gap: var(--cds-gap-md); grid-template-columns: repeat(auto-fit, minmax(min(100%, 10.5rem), 1fr)); }
+  .sv .tile { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md) var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-xs); }
+  .sv .tile .lbl { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .sv .tile .num { font-family: var(--font-anthropic-serif); font-size: var(--cds-font-size-title); font-weight: 400; font-variant-numeric: tabular-nums; min-height: 1.3em; }
+  .sv .chart { position: relative; min-height: 220px; }
+  .sv .chart.tall { min-height: 300px; }
+  .sv svg text { fill: var(--color-fg-muted); font-size: var(--cds-font-size-caption); font-family: var(--font-anthropic-sans); }
+  .sv svg .val { fill: var(--color-fg); font-variant-numeric: tabular-nums; }
+  .sv .tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; z-index: 2; }
+  .sv .tip .k { color: var(--cds-text-secondary); }
+  .sv .tbl { max-height: 26rem; overflow: auto; }
+  .sv table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+  .sv th { text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); position: sticky; top: 0; background: var(--color-panel); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); }
+  .sv td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+  .sv td.n, .sv th.n { text-align: right; }
+  .sv .bar-cell { display: flex; align-items: center; gap: var(--cds-gap-sm); }
+  .sv .bar-cell span.b { height: 10px; border-radius: 2px; background: var(--cds-chart-muted); flex: none; }
+  .sv .bar-cell span.b.hi { background: var(--cds-chart-status-critical); }
+  .sv .snap { width: 100%; max-width: 100%; border-radius: var(--cds-radius); display: block; }
+  .sv .steps { margin: 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: var(--cds-gap-xs); line-height: 1.45; }
+  .sv code { font-size: .92em; }
+  .sv .pill { display: inline-block; padding: 0 6px; border-radius: 999px; border: 1px solid var(--color-border-line); }
+  .sv .pill.no { color: var(--color-bad); }
+  .sv .pill.si { color: var(--color-ok); }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  [data-dash-source-state=empty] { color: transparent; }
+</style>
+
+<div class="sv">
+  <header class="head">
+    <span class="badge">Vista previa · datos perfilados de MEData y GeoMedellín, noviembre 2026</span>
+    <h1 id="titulo">Siniestralidad vial Medellín</h1>
+    <p class="lede">Entre 2014 y 2021 MEData registra <b data-draw="t-vict" data-source="kpi" data-field="victimas" data-row="0">—</b> víctimas de incidentes viales; <b data-draw="t-moto" data-source="kpi" data-field="pct_moto" data-row="0">—</b> iban en moto. Antes de analizar nada, la depuración quitó <b data-draw="t-vacias" data-source="reglas_depuracion" data-field="filas_afectadas" data-where="id_regla=v1">—</b> filas vacías del archivo original.</p>
+  </header>
+
+  <div class="tiles" id="kpis">
+    <div class="tile"><span class="lbl">Víctimas 2014-2021</span><span class="num" data-draw="k-vict" data-source="kpi" data-field="victimas" data-row="0" data-fetchpriority="high">—</span></div>
+    <div class="tile"><span class="lbl">Muertos</span><span class="num" data-draw="k-muertos" data-source="kpi" data-field="muertos" data-row="0">—</span></div>
+    <div class="tile"><span class="lbl">Letalidad (muertos / víctimas)</span><span class="num" data-draw="k-letal" data-source="kpi" data-field="letalidad" data-row="0">—</span></div>
+    <div class="tile"><span class="lbl">Víctimas en moto</span><span class="num" data-draw="k-moto" data-source="kpi" data-field="pct_moto" data-row="0">—</span></div>
+    <div class="tile"><span class="lbl">Incidentes 2014-2020</span><span class="num" data-draw="k-inc" data-source="kpi" data-field="incidentes" data-row="0">—</span></div>
+    <div class="tile"><span class="lbl">Cámaras CCTV con foto en vivo</span><span class="num" data-draw="k-cctv" data-source="kpi" data-field="cctv_con_foto" data-row="0">—</span></div>
+  </div>
+
+  <section id="depuracion">
+    <h2>1. Depuración: qué ruido traían las fuentes</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Del archivo crudo a datos útiles</h3>
+        <p class="note">Filas del CSV de víctimas en cada paso. El archivo viene rellenado hasta el límite de Excel.</p>
+        <div class="chart" id="ch-embudo" data-draw="embudo" data-source="embudo_victimas"></div>
+      </div>
+      <div class="card">
+        <h3>Reglas aplicadas</h3>
+        <p class="note">Lo inservible va a cuarentena con su motivo; lo corregible se corrige y queda marcado en <code>flags_calidad</code>.</p>
+        <div class="tbl">
+          <table id="tb-reglas" data-source="reglas_depuracion" data-row-key="id_regla">
+            <thead><tr><th data-field="fuente">Fuente</th><th data-field="problema">Problema</th><th class="n" data-field="filas_afectadas">Filas</th><th data-field="accion">Acción</th></tr></thead>
+            <tbody data-draw="reglas"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="siniestralidad">
+    <h2>2. Siniestralidad ya depurada</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Víctimas por año</h3>
+        <p class="note">2020 cae por las cuarentenas; 2021 es el último año que publica MEData.</p>
+        <div class="chart" id="ch-anio" data-draw="anio" data-source="victimas_resumen"></div>
+      </div>
+      <div class="card">
+        <h3>Víctimas por condición</h3>
+        <p class="note">Condición unificada: "Acompañante de Motocicleta" y "…motocicleta" son una sola categoría.</p>
+        <div class="chart" id="ch-actor" data-draw="actor" data-source="victimas_resumen"></div>
+      </div>
+      <div class="card">
+        <h3>Víctimas por clase de incidente</h3>
+        <p class="note">Choque domina; "Otro" agrupa lo que el informe policial no clasifica.</p>
+        <div class="chart" id="ch-clase" data-draw="clase" data-source="victimas_resumen"></div>
+      </div>
+      <div class="card">
+        <h3>Víctimas por día de la semana</h3>
+        <p class="note">Entre semana es casi plano; el domingo baja.</p>
+        <div class="chart" id="ch-dia" data-draw="dia" data-source="victimas_resumen"></div>
+      </div>
+      <div class="card">
+        <h3>Incidentes por gravedad</h3>
+        <p class="note">"Solo da\xF1os" y "Solo daños" ya están unidos en una categoría.</p>
+        <div class="chart" id="ch-incgrav" data-draw="incgrav" data-source="incidentes_resumen"></div>
+      </div>
+      <div class="card">
+        <h3>Incidentes por año</h3>
+        <p class="note">El año 2019 venía partido en dos ("2019" y "2019\r"); aquí ya está sumado.</p>
+        <div class="chart" id="ch-incanio" data-draw="incanio" data-source="incidentes_resumen"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="comunas">
+    <h2>3. Comunas y cámaras de tránsito</h2>
+    <div class="card">
+      <h3>Víctimas frente a cámaras por comuna</h3>
+      <p class="note">Víctimas según la comuna declarada en MEData; cámaras ubicadas con el polígono oficial de GeoMedellín. En rojo, las cinco comunas con más víctimas y ninguna cámara de circuito cerrado. "Sin información" se reduce al imputar la comuna por coordenada en el ETL.</p>
+      <div class="tbl">
+        <table id="tb-comunas" data-source="comuna_cam" data-row-key="comuna">
+          <thead><tr><th data-field="comuna">Comuna</th><th data-field="victimas">Víctimas</th><th class="n" data-field="camaras_cctv">CCTV</th><th class="n" data-field="camaras_fdt">Fotomultas</th><th class="n" data-field="camaras_ars">Apoyo semafórico</th></tr></thead>
+          <tbody data-draw="comunas"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="vision">
+    <h2>4. Visión artificial sobre las cámaras CCTV</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Ejemplo de captura real</h3>
+        <p class="note">CCTV-8, Terminal del Norte (Cr 64C x Cl 78), 4 de noviembre de 2026, 7:44 p. m. Esta es la imagen que el colector guarda cada 5 minutos por cámara.</p>
+        <img class="snap" alt="Imagen nocturna de la cámara CCTV-8 en la Terminal del Norte con tráfico denso" src="data:image/jpeg;base64,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">
+      </div>
+      <div class="card">
+        <h3>Qué hace el módulo de visión</h3>
+        <ol class="steps">
+          <li>Descarga la foto de cada cámara CCTV con foto en vivo.</li>
+          <li>Control de calidad: marca la cámara como <span class="pill">sin señal</span>, <span class="pill">congelada</span> o <span class="pill">error</span>, y calcula el brillo para separar día y noche.</li>
+          <li>Con <code>conteo_vehiculos: true</code>, YOLOv8 cuenta autos, motos, buses, camiones, bicicletas y personas en cada foto.</li>
+          <li>Cada conteo se cruza con las víctimas por la cámara más cercana: aforo propio contra siniestralidad.</li>
+        </ol>
+        <p class="note">Aquí todavía no hay conteos: se llenan cuando corras <code>python -m etl camaras</code> en tu equipo. Esta sección mostrará entonces vehículos por hora y cámara.</p>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Inventario de cámaras CCTV</h3>
+      <p class="note">Capa CCTV_Movilidad de GeoMedellín. Las que dicen "No" traen el enlace de la foto vacío o roto en la fuente.</p>
+      <div class="tbl">
+        <table id="tb-cctv" data-source="camaras_cctv" data-row-key="id_camara">
+          <thead><tr><th data-field="id_camara">Cámara</th><th data-field="nombre">Nombre</th><th data-field="direccion">Dirección</th><th data-field="comuna">Comuna</th><th data-field="tiene_snapshot">Foto en vivo</th></tr></thead>
+          <tbody data-draw="cctv"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+  const N = (x) => +x;
+  dash.calc('kpi', {
+    title: 'Indicadores principales',
+    description: 'Totales de víctimas, muertos, letalidad, participación de la moto, incidentes y cámaras con foto.',
+    inputs: ['victimas_resumen', 'incidentes_resumen', 'camaras_cctv'],
+    fn: (victimas_resumen, incidentes_resumen, camaras_cctv) => {
+      const v = (dim) => victimas_resumen.filter((r) => r.dimension === dim);
+      const sum = (rs, c) => rs.reduce((a, r) => a + Number(r[c]), 0);
+      const victimas = sum(v('anio'), 'victimas');
+      const muertos = sum(v('gravedad').filter((r) => r.categoria === 'Muerto'), 'victimas');
+      const moto = sum(v('condicion').filter((r) => r.categoria === 'Motociclista' || r.categoria === 'Acompañante de moto'), 'victimas');
+      return [{
+        victimas, muertos, letalidad: muertos / victimas, pct_moto: moto / victimas,
+        incidentes: sum(incidentes_resumen.filter((r) => r.dimension === 'anio'), 'incidentes'),
+        cctv_con_foto: camaras_cctv.filter((r) => r.tiene_snapshot === 'Sí').length,
+      }];
+    },
+  });
+  dash.calc('comuna_cam', {
+    title: 'Víctimas y cámaras por comuna',
+    description: 'Une las víctimas por comuna con el conteo de cámaras por tipo en la misma comuna.',
+    inputs: ['victimas_resumen', 'camaras_por_comuna'],
+    fn: (victimas_resumen, camaras_por_comuna) => {
+      const cam = new Map(camaras_por_comuna.map((c) => [c.codigo_comuna, c]));
+      return victimas_resumen.filter((r) => r.dimension === 'comuna').map((r) => {
+        const c = cam.get(r.codigo) || {};
+        return { comuna: r.categoria, victimas: Number(r.victimas), camaras_cctv: Number(c.camaras_cctv || 0),
+                 camaras_fdt: Number(c.camaras_fdt || 0), camaras_ars: Number(c.camaras_ars || 0) };
+      }).sort((a, b) => b.victimas - a.victimas);
+    },
+  });
+
+  window.sv = (() => {
+    const fmt = d3.format(',');
+    const compact = new Intl.NumberFormat('es-CO', { notation: 'compact', maximumFractionDigits: 1 });
+    const pct = d3.format('.1%');
+    const one = (id) => { const d = dash.data(id); return d.status === 'ok' && d.data.length ? d.data[0] : null; };
+    const rows = (id, dim) => { const d = dash.data(id); return d.status === 'ok' ? d.data.filter((r) => !dim || r.dimension === dim) : null; };
+    const tip = (el) => { let t = el.querySelector('.tip'); if (!t) { t = document.createElement('div'); t.className = 'tip'; t.hidden = true; el.appendChild(t); } return t; };
+    const showTip = (el, t, ev, k, v) => {
+      t.replaceChildren();
+      const a = document.createElement('div'); a.className = 'k'; a.textContent = k;
+      const b = document.createElement('div'); b.textContent = v;
+      t.append(a, b); t.hidden = false;
+      const r = el.getBoundingClientRect(); const x = ev.clientX - r.left, y = ev.clientY - r.top;
+      const w = t.offsetWidth; t.style.left = Math.min(Math.max(0, x + 12), r.width - w) + 'px'; t.style.top = Math.max(0, y - 40) + 'px';
+    };
+    const textW = (svg, s) => { const t = svg.append('text').text(s); const w = t.node().getComputedTextLength(); t.remove(); return w; };
+
+    function hbar(el, data, { label, value, valueFmt = fmt, hi = () => false, color = 0 }) {
+      el.replaceChildren();
+      if (!data) return;
+      const W = el.clientWidth || 320, rowH = 26, H = data.length * rowH + 4;
+      const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
+      const lw = d3.max(data, (d) => textW(svg, label(d))) + 8;
+      const vw = d3.max(data, (d) => textW(svg, valueFmt(value(d)))) * 1.15 + 16;
+      const x = d3.scaleLinear([0, d3.max(data, value)], [0, Math.max(10, W - lw - vw)]);
+      const g = svg.selectAll('g').data(data).join('g').attr('transform', (d, i) => `translate(0,${i * rowH + 2})`);
+      g.append('text').attr('x', lw - 8).attr('y', rowH / 2).attr('dy', '.35em').attr('text-anchor', 'end').text(label);
+      g.append('rect').attr('x', lw).attr('y', 4).attr('height', rowH - 8).attr('rx', 3).attr('width', (d) => Math.max(1, x(value(d))))
+        .style('fill', (d) => hi(d) ? dash.colors[color] : 'var(--cds-chart-muted)');
+      g.append('text').attr('class', 'val').attr('x', (d) => lw + x(value(d)) + 6).attr('y', rowH / 2).attr('dy', '.35em').text((d) => valueFmt(value(d)));
+      const t = tip(el);
+      g.on('mousemove', (ev, d) => showTip(el, t, ev, label(d), valueFmt(value(d)))).on('mouseleave', () => { t.hidden = true; });
+    }
+
+    function vbar(el, data, { label, value, last = true }) {
+      el.replaceChildren();
+      if (!data) return;
+      const W = el.clientWidth || 320, H = 220, m = { t: 18, r: 4, b: 22, l: 4 };
+      const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
+      const x = d3.scaleBand(data.map(label), [m.l, W - m.r]).padding(0.25);
+      const y = d3.scaleLinear([0, d3.max(data, value) * 1.08], [H - m.b, m.t]);
+      svg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(0)).attr('y2', y(0)).style('stroke', 'var(--cds-chart-axis)');
+      const bw = Math.min(32, x.bandwidth());
+      const g = svg.selectAll('g.b').data(data).join('g').attr('class', 'b');
+      g.append('rect').attr('x', (d) => x(label(d)) + (x.bandwidth() - bw) / 2).attr('width', bw).attr('y', (d) => y(value(d)))
+        .attr('height', (d) => y(0) - y(value(d))).attr('rx', 3).style('fill', dash.colors[0]);
+      g.append('text').attr('x', (d) => x(label(d)) + x.bandwidth() / 2).attr('y', H - 6).attr('text-anchor', 'middle').text(label);
+      if (bw >= 26) g.append('text').attr('class', 'val').attr('x', (d) => x(label(d)) + x.bandwidth() / 2).attr('y', (d) => y(value(d)) - 4).attr('text-anchor', 'middle').text((d) => compact.format(value(d)));
+      const t = tip(el);
+      g.on('mousemove', (ev, d) => showTip(el, t, ev, label(d), fmt(value(d)))).on('mouseleave', () => { t.hidden = true; });
+    }
+
+    function tableBody(tb, data, cells) {
+      tb.replaceChildren();
+      if (!data) return;
+      for (const r of data) {
+        const tr = document.createElement('tr');
+        for (const c of cells) { const td = document.createElement('td'); if (c.cls) td.className = c.cls; c.fill(td, r); tr.appendChild(td); }
+        tb.appendChild(tr);
+      }
+    }
+    return { fmt, compact, pct, one, rows, hbar, vbar, tableBody };
+  })();
+
+  const num = (field, f) => (el) => { const k = sv.one('kpi'); el.textContent = k ? f(k[field]) : '—'; };
+  dash.draw('t-vict', num('victimas', sv.fmt));
+  dash.draw('t-moto', num('pct_moto', sv.pct));
+  dash.draw('k-vict', num('victimas', sv.fmt));
+  dash.draw('k-muertos', num('muertos', sv.fmt));
+  dash.draw('k-letal', num('letalidad', d3.format('.2%')));
+  dash.draw('k-moto', num('pct_moto', sv.pct));
+  dash.draw('k-inc', num('incidentes', sv.fmt));
+  dash.draw('k-cctv', (el) => { const k = sv.one('kpi'); const c = dash.data('camaras_cctv'); el.textContent = k && c.status === 'ok' ? `${k.cctv_con_foto} de ${c.data.length}` : '—'; });
+  dash.draw('t-vacias', (el) => { const r = sv.rows('reglas_depuracion'); const v = r && r.find((x) => x.id_regla === 'v1'); el.textContent = v ? sv.fmt(+v.filas_afectadas) : '—'; });
+
+  dash.draw('embudo', (el) => { const r = sv.rows('embudo_victimas'); sv.hbar(el, r && [...r].sort((a, b) => a.paso - b.paso), { label: (d) => d.etapa, value: (d) => +d.filas, hi: (d) => +d.paso === 3 }); });
+  dash.draw('anio', (el) => sv.vbar(el, sv.rows('victimas_resumen', 'anio'), { label: (d) => d.categoria, value: (d) => +d.victimas }));
+  dash.draw('incanio', (el) => sv.vbar(el, sv.rows('incidentes_resumen', 'anio'), { label: (d) => d.categoria, value: (d) => +d.incidentes }));
+  const sortDesc = (r, c) => r && [...r].sort((a, b) => b[c] - a[c]);
+  dash.draw('actor', (el) => sv.hbar(el, sortDesc(sv.rows('victimas_resumen', 'condicion'), 'victimas'), { label: (d) => d.categoria, value: (d) => +d.victimas, hi: (d) => /moto/i.test(d.categoria) }));
+  dash.draw('clase', (el) => sv.hbar(el, sortDesc(sv.rows('victimas_resumen', 'clase'), 'victimas'), { label: (d) => d.categoria, value: (d) => +d.victimas, hi: (d) => d.categoria === 'Choque' }));
+  dash.draw('dia', (el) => sv.vbar(el, sv.rows('victimas_resumen', 'dia_semana'), { label: (d) => d.categoria, value: (d) => +d.victimas }));
+  dash.draw('incgrav', (el) => sv.hbar(el, sortDesc(sv.rows('incidentes_resumen', 'gravedad'), 'incidentes'), { label: (d) => d.categoria, value: (d) => +d.incidentes, hi: (d) => d.categoria === 'Con muertos' }));
+
+  // la fila de reglas se identifica por id_regla
+  dash.draw('reglas', (tb) => {
+    const r = sortDesc(sv.rows('reglas_depuracion'), 'filas_afectadas');
+    tb.replaceChildren();
+    if (!r) return;
+    for (const x of r) {
+      const tr = document.createElement('tr'); tr.dataset.key = x.id_regla;
+      for (const [v, cls] of [[x.fuente], [x.problema], [sv.fmt(+x.filas_afectadas), 'n'], [x.accion]]) { const td = document.createElement('td'); if (cls) td.className = cls; td.textContent = v; tr.appendChild(td); }
+      tb.appendChild(tr);
+    }
+  });
+
+  dash.draw('comunas', (tb) => {
+    const d = dash.data('comuna_cam');
+    tb.replaceChildren();
+    if (d.status !== 'ok') return;
+    const max = d3.max(d.data, (r) => r.victimas);
+    const sinCam = d.data.filter((r) => r.camaras_cctv === 0 && r.comuna.indexOf('Sin informaci') !== 0).slice(0, 5).map((r) => r.comuna);
+    for (const r of d.data) {
+      const tr = document.createElement('tr');
+      const c0 = document.createElement('td'); c0.textContent = r.comuna;
+      const c1 = document.createElement('td'); const bc = document.createElement('div'); bc.className = 'bar-cell';
+      const b = document.createElement('span'); b.className = 'b' + (sinCam.includes(r.comuna) ? ' hi' : ''); b.style.width = Math.max(2, 140 * r.victimas / max) + 'px';
+      const l = document.createElement('span'); l.textContent = sv.fmt(r.victimas); bc.append(b, l); c1.appendChild(bc);
+      tr.appendChild(c0); tr.appendChild(c1);
+      for (const k of ['camaras_cctv', 'camaras_fdt', 'camaras_ars']) { const td = document.createElement('td'); td.className = 'n'; td.textContent = r[k]; tr.appendChild(td); }
+      tb.appendChild(tr);
+    }
+  });
+
+  dash.draw('cctv', (tb) => {
+    const r = sv.rows('camaras_cctv');
+    tb.replaceChildren();
+    if (!r) return;
+    for (const x of r) {
+      const tr = document.createElement('tr');
+      for (const k of ['id_camara', 'nombre', 'direccion', 'comuna']) { const td = document.createElement('td'); td.textContent = x[k] || ''; tr.appendChild(td); }
+      const td = document.createElement('td'); const p = document.createElement('span'); p.className = 'pill ' + (x.tiene_snapshot === 'Sí' ? 'si' : 'no'); p.textContent = x.tiene_snapshot; td.appendChild(p); tr.appendChild(td);
+      tb.appendChild(tr);
+    }
+  });
+</script>
+
+</div></body></html>

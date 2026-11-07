@@ -1,0 +1,13 @@
+requests>=2.31
+pandas>=2.1
+pyarrow>=14
+duckdb>=1.0
+shapely>=2.0
+pyyaml>=6
+ftfy>=6.1
+holidays>=0.45
+pillow>=10
+pytest>=8
+# Opcionales:
+# selenium>=4.20      # respaldo si cambia la API de MEData (requiere Chrome)
+# ultralytics>=8.2    # conteo de vehículos en las cámaras CCTV

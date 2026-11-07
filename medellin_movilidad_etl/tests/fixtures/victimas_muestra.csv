@@ -1,0 +1,688 @@
+Gravedad_victima,Fecha_incidente,Hora_incidente,Clase_incidente,Direccion_incidente,Sexo,Edad,Condicion,Mes,Dia,Num_dia,Hora,Grupo_edad,Año,Radicado,Latitud,Longitud,Comuna,Barrio
+Heridos,11/07/2021,14:30:00,Caida Ocupante,Tramo 18 Kilometro 0,F,31,Acompañante de motocicleta,Jul,Dom,11,14,30 - 39,2021,1753774,"6,22178433","-75,7039017",Sin Inf,Sin Inf
+Heridos,20/02/2018,07:10:00,Atropello,CR 76 CL 22,F,8,Peatón,Feb,Mar,20,7,0 - 9,2018,1617453,"6,225841647","-75,59691327",16 - Belén,San Bernardo
+Heridos,25/01/2019,06:10:00,Choque,CR 55 CL 41,M,58,Motociclista,Ene,Vie,25,6,50 - 59,2019,1657790,"6,242452581","-75,57535742",10 - La Candelaria,Centro Administrativo
+Heridos,16/12/2015,19:00:00,Otro,CL 85 CR 48,M,24,Motociclista,Dic,Mié,16,19,20 - 29,2015,1515950,"6,277575676","-75,55564852",04 - Aranjuez,Las Esmeraldas
+Heridos,27/08/2015,07:00:00,Otro,CR 82 CL 105,F,26,Motociclista,Ago,Jue,27,7,20 - 29,2015,1501223,"6,306716239","-75,57887959",06 - Doce de Octubre,Doce de Octubre No.1
+Heridos,23/07/2015,13:00:00,Atropello,CL 109 CR 51,M,6,Peatón,Jul,Jue,23,13,0 - 9,2015,1496527,"6,300456186","-75,55555487",02 - Santa Cruz,La Francia
+Heridos,17/02/2018,15:08:00,Choque,CR 70 CL 31,M,39,Motociclista,Feb,Sáb,17,15,30 - 39,2018,1616965,"6,233752547","-75,59160333",16 - Belén,Rosales
+Heridos,26/05/2014,07:35:00,Choque,CL 80 CR 65,M,24,Motociclista,May,Lun,26,7,20 - 29,2014,1442661,"6,276326928","-75,57342961",05 - Castilla,Cementerio Universal
+Heridos,01/10/2019,14:10:00,Choque,CL 53 CR 54,M,54,Motociclista,Oct,Mar,1,14,50 - 59,2019,1689450,"6,254427783","-75,57166875",10 - La Candelaria,San Benito
+Heridos,30/03/2019,01:00:00,Choque,CR 44 CL 25,M,56,Conductor,Mar,Sáb,30,1,50 - 59,2019,1665262,"6,226485074","-75,57327913",14 - El Poblado,Barrio Colombia
+Heridos,10/05/2019,09:00:00,Otro,CL 33 CR 39 B,F,108,Acompañante de Motocicleta,May,Vie,10,9,Sin Inf,2019,1670188,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,15/08/2017,08:45:00,Caida Ocupante,CR 55 CL 37,F,39,Acompañante de Motocicleta,Ago,Mar,15,8,30 - 39,2017,1593982,"6,240000995","-75,57547336",10 - La Candelaria,Calle Nueva
+Heridos,1/04/2014,18:30:00,Atropello,CL 34 CR 117,M,47,Pasajero,Abr,Mar,1,18,40 - 49,2014,1435570,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,27/10/2014,19:30:00,Otro,CR 64 AA CL 111 EE,F,33,Acompañante de Motocicleta,Oct,Lun,27,19,30 - 39,2014,1462311,"6,305054316","-75,56009621",05 - Castilla,Toscana
+Heridos,08/02/2021,16:40:00,Choque,CR 64 C CL 67,M,53,Motociclista,Feb,Lun,8,16,50 - 59,2021,1737701,"6,26616517","-75,57511839",05 - Castilla,Caribe
+Heridos,24/12/2014,15:00:00,Otro,CL 45 CR 25,M,32,Motociclista,Dic,Mié,24,15,30 - 39,2014,1469749,"6,226999452","-75,57397889",14 - El Poblado,Barrio Colombia
+Heridos,18/02/2019,20:50:00,Caida Ocupante,CR 49 CL 4 Sur,F,22,Motociclista,Feb,Lun,18,20,20 - 29,2019,1660768,"6,203795882","-75,5790207",14 - El Poblado,La Aguacatala
+Heridos,14/11/2020,18:40:00,Choque,CR 76 CL 103 B,M,50,Motociclista,Nov,Sáb,14,18,50 - 59,2020,1729406,"6,301742645","-75,5747146",06 - Doce de Octubre,Pedregal
+Heridos,12/04/2014,17:30:00,Atropello,CL 75 CR 75,F,39,Acompañante de Motocicleta,Abr,Sáb,12,17,30 - 39,2014,1437078,"6,276480288","-75,58748553",07 - Robledo,La Pilarica
+Heridos,11/10/2020,22:15:00,Volcamiento,CL 99 CR 99,M,20,Motociclista,Oct,Dom,11,22,20 - 29,2020,1725970,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,16/07/2020,13:00:00,Caida Ocupante,CR 8 CL 999,M,19,Motociclista,Jul,Jue,16,13,10 - 19,2020,1718964,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,12/09/2021,19:45:00,Choque,CL 18 C CR 56,M,52,Motociclista,Sep,Dom,12,19,50 - 59,2021,1761514,Sin Inf,Sin Inf,Sin Inf,
+Heridos,01/06/2021,14:00:00,Otro,CL 49 B CR 99 EE,Sin Inf,21,Motociclista,Jun,Mar,1,14,20 - 29,2021,1749198,"6,30904186","-75,57057564",05 - Castilla,Tejelo
+Heridos,21/09/2019,05:55:00,Choque,CR 45 CL 70 A,M,35,Acompañante de Motocicleta,Sept,Sáb,21,5,30 - 39,2019,1687905,"6,265806514","-75,55528164",03 - Manrique,Manrique Central No. 2
+Heridos,16/01/2017,15:30:00,Choque,CR 46 CL 50,F,39,Motociclista,Ene,Lun,16,15,30 - 39,2017,1566885,"6,24834881","-75,56520664",10 - La Candelaria,La Candelaria
+Heridos,30/10/2015,12:20:00,Choque,CL 92 CR 50 A,F,24,Acompañante de Motocicleta,Oct,Vie,30,12,20 - 29,2015,1509805,"6,283426349","-75,55863094",04 - Aranjuez,San Isidro
+Heridos,20/06/2019,15:30:00,Caida Ocupante,CR 36 CL 66,M,21,Acompañante de Motocicleta,Jun,Jue,20,15,20 - 29,2019,1675322,"6,256843568","-75,54962809",08 - Villa Hermosa,Villa Hermosa
+Heridos,09/10/2020,05:10:00,Otro,CL 50 CR 80,M,32,Motociclista,Oct,Vie,9,5,30 - 39,2020,1725958,"6,26352689","-75,5969966",12 - La América,Calasanz
+Heridos,16/11/2016,07:30:00,Choque,CR 80 CL 79,F,43,Pasajero,Nov,Mié,16,7,40 - 49,2016,1559592,"6,282158957","-75,58554291",07 - Robledo,Altamira
+Heridos,24/09/2015,17:30:00,Volcamiento,CR 24 CL 57 F,F,37,Acompañante de Motocicleta,Sept,Jue,24,17,30 - 39,2015,1505230,"6,248970491","-75,54453343",08 - Villa Hermosa,Los Mangos
+Heridos,3/12/2016,07:40:00,Choque,CL 92 CR 42 B,M,21,Motociclista,Dic,Sáb,3,7,20 - 29,2016,1561944,"6,283606624","-75,55005117",03 - Manrique,La Salle
+Heridos,24/10/2020,04:30:00,Volcamiento,TV 7 A CR 29,M,27,Motociclista,Oct,Sáb,24,4,20 - 29,2020,1727213,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,1/02/2018,12:20:00,Choque,CR 44 CL 27,F,28,Motociclista,Feb,Jue,1,12,20 - 29,2018,1614898,"6,227828401","-75,57225901",14 - El Poblado,Barrio Colombia
+Heridos,26/07/2016,09:40:00,Choque,CR 48 CL 10,F,65,Peatón,Jul,Mar,26,9,60 - 69,2016,1544370,"6,213677255","-75,57619463",14 - El Poblado,Manila
+Heridos,1/08/2018,07:30:00,Choque,CR 80 CL 57,M,25,Motociclista,Ago,Mié,1,7,20 - 29,2018,1636756,"6,270335549","-75,59510795",11 - Laureles Estadio,Los Colores
+Heridos,12/07/2019,19:00:00,Atropello,CR 42 B CL 94,F,4,Peatón,Jul,Vie,12,19,0 - 9,2019,1678054,"6,285481533","-75,5501119",01 - Popular,Villa Guadalupe
+Heridos,15/06/2016,06:30:00,Otro,CR 47 CL 107,M,24,Acompañante de Motocicleta,Jun,Mié,15,6,20 - 29,2016,1538780,"6,296412857","-75,552083",02 - Santa Cruz,Andalucía
+Heridos,13/06/2019,16:55:00,Otro,CL 12 CR 43 A,M,20,Motociclista,Jun,Jue,13,16,20 - 29,2019,1674393,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,24/01/2017,18:35:00,Choque,CR 50 CL 25,F,36,Motociclista,Ene,Mar,24,18,30 - 39,2017,1568025,"6,225349961","-75,57668028",15 - Guayabal,Santa Fé
+Heridos,26/06/2015,06:00:00,Choque,CR 53 CL 73,M,51,Motociclista,Jun,Vie,26,6,50 - 59,2015,1493044,"6,269494479","-75,56625703",04 - Aranjuez,Parque Norte
+Heridos,16/04/2016,06:30:00,Choque,CL 60 CR 99,F,29,Acompañante de Motocicleta,Abr,Sáb,16,6,20 - 29,2016,1531014,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,24/08/2021,07:30:00,Otro,CL 100 CR 47,F,35,Motociclista,Ago,Mar,24,7,30 - 39,2021,1759314,"6,29122355","-75,55406336",02 - Santa Cruz,Moscú No. 1
+Heridos,16/09/2021,08:30:00,Choque,CR 43 A CL 17 Sur,Sin Inf,22,Ciclista,Sep,Jue,16,8,20 - 29,2021,1762008,"-75,57805448","6,18681815",14 - El Poblado,El Diamante No. 2
+Heridos,1/09/2018,10:40:00,Otro,CR 70 CL 50,F,18,Motociclista,Sept,Sáb,1,10,10 - 19,2018,1640490,"6,258517564","-75,5860546",11 - Laureles Estadio,Carlos E. Restrepo
+Heridos,04/09/2020,18:30:00,Choque,CL 62 CR 85,M,38,Motociclista,Sept,Vie,4,18,30 - 39,2020,1722633,"6,27367192","-75,59731659",07 - Robledo,Aures No. 2
+Heridos,06/02/2021,18:30:00,Caida Ocupante,CR 99 CL 99,F,26,Acompañante de motocicleta,Feb,Sáb,6,18,20 - 29,2021,1737729,"6,25129287","-75,61660376",13 - San Javier,Belencito
+Heridos,28/06/2015,22:00:00,Otro,CR 51 D CL 69,M,53,Pasajero,Jun,Dom,28,22,50 - 59,2015,1493388,"6,26654123","-75,56497961",04 - Aranjuez,Sevilla
+Heridos,8/10/2018,15:00:00,Otro,CL 999 CR 999,M,27,Motociclista,Oct,Lun,8,15,20 - 29,2018,1645180,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,8/01/2015,16:35:00,Otro,CR 50 CL 30 A,M,32,Motociclista,Ene,Jue,8,16,30 - 39,2015,1471357,"6,231901377","-75,57435018",10 - La Candelaria,Perpetuo Socorro
+Heridos,13/08/2017,11:30:00,Choque,CL 46 CR 15 B,M,23,Motociclista,Ago,Dom,13,11,20 - 29,2017,1593625,"6,232727264","-75,54414767",09 - Buenos Aires,Los Cerros El Vergel
+Heridos,27/01/2018,14:00:00,Choque,CR 72 CL 26 B,F,21,Conductor,Ene,Sáb,27,14,20 - 29,2018,1614596,"6,228440757","-75,59265959",16 - Belén,San Bernardo
+Heridos,06/10/2019,02:20:00,Atropello,CR 32 CL 79,M,20,Peatón,Oct,Dom,6,2,20 - 29,2019,1689932,"6,27016026","-75,54528485",03 - Manrique,El Raizal
+Heridos,08/05/2021,18:25:00,Choque,CR 63 CL 66,Sin Inf,26,Motociclista,May,Sáb,8,18,20 - 29,2021,1746497,"6,26350158","-75,57309838",07 - Robledo,Universidad Nacional
+Heridos,4/07/2017,10:50:00,Volcamiento,CR 63 CL 48,M,31,Motociclista,Jul,Mar,4,10,30 - 39,2017,1588347,"6,251656167","-75,57910299",11 - Laureles Estadio,Suramericana
+Heridos,25/05/2015,15:45:00,Caida Ocupante,CR 64 C CL 104,M,21,Motociclista,May,Lun,25,15,20 - 29,2015,1488907,"6,301392047","-75,56381452",05 - Castilla,Las Brisas
+Heridos,27/03/2017,21:30:00,Volcamiento,CR 89 C CL 30,F,31,Motociclista,Mar,Lun,27,21,30 - 39,2017,1575933,"6,231824948","-75,61500975",16 - Belén,Las Violetas
+Heridos,30/03/2015,13:30:00,Caida Ocupante,CR 6 CL 50,F,23,Motociclista,Mar,Lun,30,13,20 - 29,2015,1481688,"6,230911242","-75,5369701",09 - Buenos Aires,Barrio de Jesús
+Heridos,2/12/2018,17:02:00,Choque,CL 59 CR 121,M,23,Motociclista,Dic,Dom,2,17,20 - 29,2018,1651782,"6,276090131","-75,62716995",60 - Corregimiento de San Cristóbal,Suburbano La Loma
+Heridos,15/10/2017,17:45:00,Choque,CR 64 AA CL 115,M,20,Acompañante de Motocicleta,Oct,Dom,15,17,20 - 29,2017,1601987,"6,309642731","-75,56380411",05 - Castilla,Las Brisas
+Heridos,9/02/2018,22:30:00,Caida Ocupante,CL 78 CR 44,M,20,Motociclista,Feb,Vie,9,22,20 - 29,2018,1615789,"6,270930344","-75,55341191",03 - Manrique,Campo Valdés No. 2
+Heridos,5/09/2017,18:20:00,Choque,CR 65 CL 91 C,F,34,Acompañante de Motocicleta,Sept,Mar,5,18,30 - 39,2017,1596869,"6,282772714","-75,5719104",05 - Castilla,Francisco Antonio Zea
+Heridos,04/09/2019,05:40:00,Choque,CL 56 CR 124,F,31,Motociclista,Sept,Mié,4,5,30 - 39,2019,1685470,"6,273300778","-75,62988327",60 - Corregimiento de San Cristóbal,Suburbano La Loma
+Heridos,20/08/2016,10:05:00,Volcamiento,CL 4 Sur CR 45,M,21,Motociclista,Ago,Sáb,20,10,20 - 29,2016,1547544,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,19/08/2019,06:00:00,Caida Ocupante,CR 78 CL 101,F,10,Acompañante de Motocicleta,Ago,Lun,19,6,10 - 19,2019,1683121,"6,299866059","-75,57863707",06 - Doce de Octubre,Doce de Octubre No.2
+Heridos,16/03/2014,03:30:00,Atropello,CL 40 A Sur CR 67,M,19,Acompañante de Motocicleta,Mar,Dom,16,3,10 - 19,2014,1433040,"6,185097443","-75,64827408",80 - Corregimiento de San Antonio de Prado,Cabecera San Antonio de Prado
+Heridos,13/03/2016,15:20:00,Choque,CR 52 CL 29 A,M,27,Motociclista,Mar,Dom,13,15,20 - 29,2016,1526833,"6,229129687","-75,57718464",15 - Guayabal,Santa Fé
+Heridos,10/12/2017,20:40:00,Volcamiento,CL 77 CR 54 B,F,29,Motociclista,Dic,Dom,10,20,20 - 29,2017,1609167,"6,273243653","-75,56619668",04 - Aranjuez,Moravia
+Heridos,8/07/2015,03:00:00,Choque,CR 80 CL 30 A,M,22,Motociclista,Jul,Mié,8,3,20 - 29,2015,1494443,"6,231171584","-75,60068811",16 - Belén,Belén
+Heridos,07/06/2019,07:20:00,Otro,CL 85 CR 39,M,47,Motociclista,Jun,Vie,7,7,40 - 49,2019,1673702,"6,276138007","-75,54774167",03 - Manrique,Las Granjas
+Heridos,22/02/2016,18:25:00,Atropello,CL 59 CR 47,F,46,Peatón,Feb,Lun,22,18,40 - 49,2016,1524116,"6,25554041","-75,56178077",10 - La Candelaria,Prado
+Heridos,27/09/2015,11:00:00,Volcamiento,CL 60 CR 56,M,32,Acompañante de Motocicleta,Sept,Dom,27,11,30 - 39,2015,1505522,"6,259777386","-75,57073497",10 - La Candelaria,El Chagualo
+Heridos,23/11/2018,07:00:00,Caida Ocupante,TV 51 A CL 55,M,33,Motociclista,Nov,Vie,23,7,30 - 39,2018,1650762,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,9/02/2017,21:30:00,Choque,CR 46 CL 39,F,19,Acompañante de Motocicleta,Feb,Jue,9,21,10 - 19,2017,1570017,"6,239212382","-75,5702964",10 - La Candelaria,Barrio Colón
+Heridos,25/07/2014,21:00:00,Choque,CR 73 CL 95,M,28,Motociclista,Jul,Vie,25,21,20 - 29,2014,1450408,"6,291227998","-75,5765081",06 - Doce de Octubre,La Esperanza
+Heridos,09/10/2019,16:20:00,Choque,CR 46 CL 53,M,28,Motociclista,Oct,Mié,9,16,20 - 29,2019,1690511,"6,250657466","-75,56391642",10 - La Candelaria,La Candelaria
+Heridos,08/02/2020,16:00:00,Otro,CL 57 A CR 90,M,50,Motociclista,Feb,Sáb,8,16,50 - 59,2020,1707033,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,30/01/2021,09:30:00,Choque,CR 97 A CL 48 A,F,24,Acompañante de motocicleta,Ene,Sáb,30,9,20 - 29,2021,1736834,"6,2592966","-75,61177678",13 - San Javier,La Pradera
+Heridos,12/01/2021,22:15:00,Choque,CL 65 CR 75,M,23,Acompañante de motocicleta,Ene,Mar,12,22,20 - 29,2021,1735071,"6,27006071","-75,58747511",07 - Robledo,Facultad Veterinaria y Zootecnia U.de.A.
+Heridos,29/01/2019,17:55:00,Atropello,CR 49 CL 98 A,F,49,Peatón,Ene,Mar,29,17,40 - 49,2019,1658280,"6,29038958","-75,55652766",02 - Santa Cruz,Moscú No. 1
+Heridos,14/06/2021,14:30:00,Volcamiento,CL 71 B CR 29,M,29,Motociclista,Jun,Lun,14,14,20 - 29,2021,1750711,"6,25889961","-75,58006451",11 - Laureles Estadio,Carlos E. Restrepo
+Heridos,14/03/2014,07:10:00,Choque,CR 65 CL 80,M,22,Motociclista,Mar,Vie,14,7,20 - 29,2014,1432890,"6,276299355","-75,5733641",05 - Castilla,Terminal de Transporte
+Heridos,14/09/2019,22:40:00,Caida Ocupante,CR 52 CL 6,M,29,Motociclista,Sept,Sáb,14,22,20 - 29,2019,1686846,"6,212165857","-75,58329714",15 - Guayabal,Campo Amor
+Heridos,4/06/2018,08:45:00,Volcamiento,CR 63 CL 86,F,24,Motociclista,Jun,Lun,4,8,20 - 29,2018,1629724,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,10/06/2019,15:10:00,Choque,CR 75 CL 9 AA,M,17,Pasajero,Jun,Lun,10,15,10 - 19,2019,1674288,"6,21881792","-75,59761934",16 - Belén,Las Playas
+Heridos,1/12/2020,15:30:00,Atropello,CR 36 CL 39,F,62,Peatón,Dic,Mar,1,15,60 - 69,2020,1731020,"6,23672325","-75,56183785",09 - Buenos Aires,El Salvador
+Heridos,12/04/2014,15:30:00,Choque,CL 72 CR 66,F,31,Motociclista,Abr,Sáb,12,15,30 - 39,2014,1437053,"6,271537839","-75,57742135",05 - Castilla,El Progreso
+Heridos,10/01/2015,14:45:00,Atropello,CL 45 CR 79,F,37,Peatón,Ene,Sáb,10,14,30 - 39,2015,1471527,"6,251493527","-75,59744126",12 - La América,Los Pinos
+Heridos,7/08/2014,18:00:00,Choque,CL 38 CR 23,M,18,Motociclista,Ago,Jue,7,18,10 - 19,2014,1452165,"6,230612921","-75,55104587",09 - Buenos Aires,Cataluña
+Heridos,21/10/2014,18:30:00,Atropello,CR 40 CL 79,F,31,Peatón,Oct,Mar,21,18,30 - 39,2014,1461644,"6,271059335","-75,54926081",03 - Manrique,Santa Inés
+Heridos,19/08/2014,20:30:00,Otro,CL 37 CR 32,M,22,Motociclista,Ago,Mar,19,20,20 - 29,2014,1453739,"6,234902144","-75,55883279",09 - Buenos Aires,El Salvador
+Heridos,31/01/2014,08:40:00,Choque,CL 44 CR 41,M,26,Motociclista,Ene,Vie,31,8,20 - 29,2014,1427318,"6,241915422","-75,56366115",10 - La Candelaria,Bomboná No. 1
+Heridos,15/06/2018,08:00:00,Otro,CR 57 CL 44,F,23,Acompañante de Motocicleta,Jun,Vie,15,8,20 - 29,2018,1631159,"6,246884422","-75,57521097",10 - La Candelaria,La Alpujarra
+Heridos,08/05/2021,17:00:00,Choque,CL 99 CR 42 B,M,40,Motociclista,May,Sáb,8,17,40 - 49,2021,1746531,"6,28956806","-75,54943695",01 - Popular,Moscú No. 2
+Heridos,6/06/2015,15:00:00,Choque,CR 67 CL 93,M,23,Motociclista,Jun,Sáb,6,15,20 - 29,2015,1490525,"6,287162393","-75,57258257",05 - Castilla,Castilla
+Heridos,2/01/2015,09:45:00,Choque,CL 64 AD CR 106,F,39,Pasajero,Ene,Vie,2,9,30 - 39,2015,1470505,"6,277827431","-75,61558423",60 - Corregimiento de San Cristóbal,Área de Expansión Pajarito
+Heridos,6/07/2015,17:30:00,Caida Ocupante,CR 50 CL 29 C,F,31,Motociclista,Jul,Lun,6,17,30 - 39,2015,1494219,"6,229667168","-75,57607862",15 - Guayabal,Santa Fé
+Heridos,10/01/2019,21:50:00,Caida Ocupante,CL 999 CR 999,F,28,Motociclista,Ene,Jue,10,21,20 - 29,2019,1656193,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,16/10/2015,18:10:00,Atropello,CL 29 CR 45,F,55,Peatón,Oct,Vie,16,18,50 - 59,2015,1507998,"6,2304372","-75,57313164",10 - La Candelaria,Perpetuo Socorro
+Heridos,23/04/2017,23:40:00,Atropello,CL 49 CR 26,M,47,Peatón,Abr,Dom,23,23,40 - 49,2017,1579132,"6,239216166","-75,54961146",09 - Buenos Aires,Alejandro Echavarría
+Heridos,15/09/2021,19:10:00,Choque,CL 65 CR 87,M,19,Motociclista,Sep,Mié,15,19,10 - 19,2021,1761916,"-75,59705804","6,27635541",07 - Robledo,Robledo
+Heridos,24/01/2017,12:56:00,Choque,CR 76 CL 9,F,37,Motociclista,Ene,Mar,24,12,30 - 39,2017,1568017,"6,219404697","-75,59889897",16 - Belén,Las Playas
+Heridos,6/01/2019,15:20:00,Choque,CR 52 CL 20,M,22,Motociclista,Ene,Dom,6,15,20 - 29,2019,1655850,"6,221577763","-75,57980277",15 - Guayabal,Santa Fé
+Heridos,12/10/2019,22:30:00,Choque,CL 62 CR 93,F,21,Acompañante de Motocicleta,Oct,Sáb,12,22,20 - 29,2019,1691082,"6,276297295","-75,60536678",07 - Robledo,Fuente Clara
+Heridos,12/11/2016,13:50:00,Atropello,CL 29 CR 43 G,M,22,Motociclista,Nov,Sáb,12,13,20 - 29,2016,1559037,"6,228560066","-75,57077518",10 - La Candelaria,Perpetuo Socorro
+Heridos,6/01/2017,06:40:00,Otro,CL 12 CR 10,M,28,Motociclista,Ene,Vie,6,6,20 - 29,2017,1565785,"6,211658765","-75,5464445",90 - Corregimiento de Santa Elena,Suburbano Mirador del Poblado
+Heridos,17/06/2014,20:20:00,Atropello,CR 80 CL 79,F,49,Peatón,Jun,Mar,17,20,40 - 49,2014,1445641,"6,282158957","-75,58554291",07 - Robledo,Altamira
+Heridos,13/09/2015,08:00:00,Otro,CL 2 CR 75,M,20,Motociclista,Sept,Dom,13,8,20 - 29,2015,1503621,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,01/01/2020,09:30:00,Choque,CL 33 CR 74 B,M,50,Ciclista,Ene,Mié,1,9,50 - 59,2020,1702127,"6,2392808","-75,59078861",11 - Laureles Estadio,Los Conquistadores
+Heridos,25/07/2021,18:00:00,Otro,CL 80 CR 72,M,45,Motociclista,Jul,Dom,25,18,40 - 49,2021,1755906,"6,28077293","-75,57843052",07 - Robledo,Córdoba
+Heridos,24/02/2015,10:00:00,Atropello,CL 44 CR 95,F,29,Peatón,Feb,Mar,24,10,20 - 29,2015,1477158,"6,255105248","-75,61223495",12 - La América,Campo Alegre
+Heridos,26/02/2021,11:15:00,Choque,CL 44 CR 57,F,29,Motociclista,Feb,Vie,26,11,20 - 29,2021,1740015,"6,2461219","-75,57571735",10 - La Candelaria,Corazón de Jesús
+Heridos,10/09/2017,13:30:00,Otro,CL 46 CR 15,M,36,Acompañante de Motocicleta,Sept,Dom,10,13,30 - 39,2017,1597456,"6,232585499","-75,54389616",09 - Buenos Aires,Los Cerros El Vergel
+Heridos,30/11/2014,17:00:00,Choque,CL 4 CR 79,M,17,Motociclista,Nov,Dom,30,17,10 - 19,2014,1466775,"6,213686265","-75,60234778",16 - Belén,El Rincón
+Heridos,26/07/2015,19:30:00,Choque,CL 79 B CR 55 C,M,13,Ciclista,Jul,Dom,26,19,10 - 19,2015,1496829,"6,275047136","-75,56652528",04 - Aranjuez,Moravia
+Heridos,8/06/2018,16:30:00,Atropello,CR 52 CL 56,F,70,Peatón,Jun,Vie,8,16,70 - 79,2018,1630401,"6,255434908","-75,56794643",10 - La Candelaria,Estación Villa
+Heridos,13/04/2015,08:50:00,Otro,CR 80 CL 78,F,21,Motociclista,Abr,Lun,13,8,20 - 29,2015,1483241,"6,301832952","-75,578599",06 - Doce de Octubre,Santander
+Heridos,2/08/2014,07:50:00,Caida Ocupante,CL 58 CR 102 A,M,28,Motociclista,Ago,Sáb,2,7,20 - 29,2014,1451490,"6,273451083","-75,6121318",07 - Robledo,Olaya Herrera
+Heridos,5/01/2016,05:50:00,Choque,CR 50 CL 16,M,30,Motociclista,Ene,Mar,5,5,30 - 39,2016,1518128,"6,217300391","-75,57716196",14 - El Poblado,Villa Carlota
+Heridos,12/10/2018,13:30:00,Choque,CR 49 CL 20,M,20,Motociclista,Oct,Vie,12,13,20 - 29,2018,1645783,"6,224120493","-75,57509756",14 - El Poblado,Villa Carlota
+Heridos,23/01/2018,20:00:00,Caida Ocupante,CL 77 CR 90,F,28,Acompañante de Motocicleta,Ene,Mar,23,20,20 - 29,2018,1613983,"6,287064299","-75,59182984",07 - Robledo,Aures No.1
+Heridos,29/06/2017,19:33:00,Otro,CL 67 CR 52,M,25,Motociclista,Jun,Jue,29,19,20 - 29,2017,1587814,"6,264320798","-75,56639587",04 - Aranjuez,Sevilla
+Heridos,15/09/2021,14:30:00,Choque,CR 40 CL 54,M,21,Motociclista,Sep,Mié,15,14,20 - 29,2021,1762382,"-75,55927978","6,24864103",10 - La Candelaria,Boston
+Heridos,25/07/2014,17:30:00,Choque,CL 44 CR 69,F,18,Pasajero,Jul,Vie,25,17,10 - 19,2014,1450419,"6,249129785","-75,58744298",11 - Laureles Estadio,Naranjal
+Heridos,28/12/2016,10:00:00,Caida Ocupante,CR 85 CL 80,F,16,Acompañante de Motocicleta,Dic,Mié,28,10,10 - 19,2016,1564858,"6,285927094","-75,5860426",07 - Robledo,El Diamante
+Heridos,22/04/2016,06:15:00,Choque,CR 62 CL 60,M,25,Motociclista,Abr,Vie,22,6,20 - 29,2016,1531782,"6,256201711","-75,57559773",10 - La Candelaria,San Benito
+Heridos,15/01/2014,15:10:00,Choque,CR 64 C CL 72,F,30,Motociclista,Ene,Mié,15,15,30 - 39,2014,1425281,"6,270420059","-75,5738452",05 - Castilla,Caribe
+Heridos,21/01/2014,14:10:00,Otro,CR 80 CL 35,M,37,Motociclista,Ene,Mar,21,14,30 - 39,2014,1426002,"6,242639653","-75,60012407",11 - Laureles Estadio,Las Acacias
+Heridos,28/12/2016,12:00:00,Caida Ocupante,CR 85 CL 35,M,42,Motociclista,Dic,Mié,28,12,40 - 49,2016,1564855,"6,244254055","-75,60803395",12 - La América,Simón Bolívar
+Heridos,6/09/2014,14:00:00,Atropello,CL 98 CR 34,M,29,Peatón,Sept,Sáb,6,14,20 - 29,2014,1455981,"6,287484877","-75,54423775",01 - Popular,San Pablo
+Heridos,23/09/2015,13:10:00,Otro,CR 65 CL 73,M,15,Acompañante de Motocicleta,Sept,Mié,23,13,10 - 19,2015,1505072,"6,271101226","-75,57556407",05 - Castilla,Caribe
+Heridos,21/02/2021,21:25:00,Choque,CL 58 CR 36,M,29,Motociclista,Feb,Dom,21,21,20 - 29,2021,1738858,"6,24949816","-75,55385151",08 - Villa Hermosa,Enciso
+Heridos,20/10/2019,21:00:00,Atropello,CR 38 CL 95,M,32,Peatón,Oct,Dom,20,21,30 - 39,2019,1692083,"6,285477335","-75,54790963",01 - Popular,San Pablo
+Heridos,19/09/2019,07:30:00,Choque,CL 46 CR 42,M,28,Ciclista,Sept,Jue,19,7,20 - 29,2019,1687595,"6,243009703","-75,56377641",10 - La Candelaria,Bomboná No. 1
+Heridos,28/02/2017,18:40:00,Otro,CR 52 CL 84,M,37,Motociclista,Feb,Mar,28,18,30 - 39,2017,1572656,"6,277794355","-75,56386769",04 - Aranjuez,Aranjuez
+Heridos,22/06/2020,01:30:00,Choque,CR 57 CL 45,M,34,Pasajero,Jun,Lun,22,1,30 - 39,2020,1717119,"6,24768554","-75,5753661",10 - La Candelaria,Guayaquil
+Heridos,24/06/2021,02:00:00,Choque,CL 59 CR 57,M,42,Motociclista,Jun,Jue,24,2,40 - 49,2021,1751945,"6,27380111","-75,56470082",04 - Aranjuez,Miranda
+Heridos,15/12/2019,11:40:00,Choque,CR 108 CL 47 B,F,51,Acompañante de Motocicleta,Dic,Dom,15,11,50 - 59,2019,1699742,"6,258230821","-75,6222513",13 - San Javier,Antonio Nariño
+Heridos,30/11/2018,13:00:00,Choque,CR 65 CL 72,M,34,Motociclista,Nov,Vie,30,13,30 - 39,2018,1651600,"6,271066625","-75,57568129",05 - Castilla,Caribe
+Heridos,11/03/2018,11:30:00,Choque,CR 72 CL 73,F,21,Motociclista,Mar,Dom,11,11,20 - 29,2018,1619558,"6,273653991","-75,5820809",07 - Robledo,La Pilarica
+Heridos,17/07/2016,13:30:00,Otro,CR 62 CL 49,M,31,Motociclista,Jul,Dom,17,13,30 - 39,2016,1542829,"6,177262007","-75,64319236",80 - Corregimiento de San Antonio de Prado,Cabecera San Antonio de Prado
+Heridos,9/12/2016,20:45:00,Choque,CR 46 CL 85,F,23,Motociclista,Dic,Vie,9,20,20 - 29,2016,1562556,"6,277257879","-75,55434272",04 - Aranjuez,Las Esmeraldas
+Heridos,11/08/2017,15:30:00,Choque,CL 52 CR 52,F,32,Motociclista,Ago,Vie,11,15,30 - 39,2017,1593409,"6,239449969","-75,54470779",08 - Villa Hermosa,La Libertad
+Heridos,6/08/2017,08:35:00,Choque,CR 64 C CL 93,F,24,Acompañante de Motocicleta,Ago,Dom,6,8,20 - 29,2017,1592781,"6,286407544","-75,57015106",05 - Castilla,Oleoducto
+Heridos,26/02/2018,14:00:00,Otro,CR 68 CL 4,M,55,Motociclista,Feb,Lun,26,14,50 - 59,2018,1617986,"6,244929235","-75,58701665",11 - Laureles Estadio,San Joaquín
+Heridos,02/06/2019,21:50:00,Otro,CL 44 CR 68,M,46,Motociclista,Jun,Dom,2,21,40 - 49,2019,1672965,"6,24887334","-75,58594054",11 - Laureles Estadio,Naranjal
+Heridos,10/12/2018,07:30:00,Caida Ocupante,CL 76 CR 80,F,26,Pasajero,Dic,Lun,10,7,20 - 29,2018,1652803,"6,277125114","-75,58955327",07 - Robledo,Villa Flora
+Heridos,2/09/2018,16:30:00,Atropello,CL 51 B CR 1,M,5,Peatón,Sept,Dom,2,16,0 - 9,2018,1640824,"6,231258433","-75,5286435",08 - Villa Hermosa,Las Estancias
+Heridos,24/06/2019,23:10:00,Choque,CR 999 CL 58,M,3,Pasajero,Jun,Lun,24,23,0 - 9,2019,1675693,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,16/10/2020,11:50:00,Caida Ocupante,CR 80 CL 50,M,22,Motociclista,Oct,Vie,16,11,20 - 29,2020,1726384,"6,26382748","-75,59659044",11 - Laureles Estadio,Los Colores
+Heridos,09/05/2020,05:40:00,Atropello,CL 57 CR 26 AA,F,24,Pasajero,May,Sáb,9,5,20 - 29,2020,1714090,"6,24670637","-75,54625128",08 - Villa Hermosa,El Pinal
+Heridos,31/08/2021,07:24:00,Otro,CR 81 CL 37,M,35,Motociclista,Ago,Mar,31,7,30 - 39,2021,1760017,"6,24524642","-75,60261432",11 - Laureles Estadio,Las Acacias
+Heridos,4/03/2017,07:45:00,Choque,CR 64 C CL 65,M,30,Motociclista,Mar,Sáb,4,7,30 - 39,2017,1573018,"6,26351523","-75,57305582",07 - Robledo,Universidad Nacional
+Heridos,17/07/2017,18:45:00,Choque,CR 79 B CL 45,M,52,Motociclista,Jul,Lun,17,18,50 - 59,2017,1590130,"6,251103882","-75,60024217",12 - La América,Los Pinos
+Heridos,09/06/2021,18:50:00,Atropello,CR 46 CL 79,F,58,Peatón,Jun,Mié,9,18,50 - 59,2021,1750174,"6,24903293","-75,56687431",10 - La Candelaria,La Candelaria
+Heridos,27/07/2021,16:00:00,Otro,CR 46 CL 47,M,26,Motociclista,Jul,Mar,27,16,20 - 29,2021,1755707,"6,24612642","-75,56675831",10 - La Candelaria,La Candelaria
+Heridos,9/08/2016,07:30:00,Choque,CR 64 C CL 103 E,M,37,Motociclista,Ago,Mar,9,7,30 - 39,2016,1546311,"6,298596284","-75,56587229",05 - Castilla,Plaza de Ferias
+Heridos,4/08/2014,20:00:00,Caida Ocupante,CL 61 CR 51,M,19,Motociclista,Ago,Lun,4,20,10 - 19,2014,1451832,"6,259513799","-75,56503797",10 - La Candelaria,Jesús Nazareno
+Heridos,4/07/2016,20:00:00,Atropello,CR 50 C CL 67,F,46,Peatón,Jul,Lun,4,20,40 - 49,2016,1541139,"6,263944981","-75,56237791",04 - Aranjuez,San Pedro
+Heridos,10/10/2020,10:00:00,Atropello,CR 45 CL 73,M,67,Peatón,Oct,Sáb,10,10,60 - 69,2020,1725982,"6,26832141","-75,55492231",03 - Manrique,El Pomar
+Heridos,23/04/2019,20:55:00,Choque,CR 50 CL 29,M,30,Motociclista,Abr,Mar,23,20,30 - 39,2019,1668183,"6,231248672","-75,57528488",16 - Belén,Cerro Nutibara
+Heridos,20/07/2019,11:00:00,Otro,CL 99 CR 37,M,18,Motociclista,Jul,Sáb,20,11,10 - 19,2019,1678883,"6,288930645","-75,54656988",01 - Popular,Moscú No. 2
+Heridos,03/06/2021,18:30:00,Volcamiento,CR 64 C CL 111 E,Sin Inf,23,Motociclista,Jun,Jue,3,18,20 - 29,2021,1749595,"6,19359917","-75,58149654",14 - El Poblado,Santa María de los Ángeles
+Heridos,12/11/2019,05:50:00,Choque,CR 43 A CL 38,M,47,Motociclista,Nov,Mar,12,5,40 - 49,2019,1695113,"6,237318247","-75,56730178",10 - La Candelaria,San Diego
+Heridos,18/07/2015,07:10:00,Caida Ocupante,CR 46 CL 53,M,19,Motociclista,Jul,Sáb,18,7,10 - 19,2015,1495685,"6,250656753","-75,56385582",10 - La Candelaria,La Candelaria
+Heridos,3/10/2015,17:10:00,Choque,CR 70 CL 23,M,48,Motociclista,Oct,Sáb,3,17,40 - 49,2015,1506387,"6,224019918","-75,59171089",15 - Guayabal,Parque Juan Pablo II
+Heridos,09/12/2019,08:00:00,Caida Ocupante,CL 92 CR 70,M,23,Motociclista,Dic,Lun,09,8,20 - 29,2019,1698929,"6,284094984","-75,57518109",05 - Castilla,Alfonso López
+Heridos,9/10/2014,15:00:00,Choque,CL 90 CR 47,M,18,Motociclista,Oct,Jue,9,15,10 - 19,2014,1460326,"6,282187387","-75,55496621",04 - Aranjuez,La Piñuela
+Heridos,30/01/2021,13:50:00,Caida Ocupante,CR 99 CL 99,F,32,Motociclista,Ene,Sáb,30,13,30 - 39,2021,1736813,"6,25129287","-75,61660376",13 - San Javier,Belencito
+Heridos,13/12/2019,10:55:00,Choque,CR 65 CL 92 F,M,19,Motociclista,Dic,Vie,13,10,10 - 19,2019,1699652,"6,285702269","-75,57073892",05 - Castilla,Castilla
+Heridos,8/09/2018,18:20:00,Atropello,CL 71 AA CR 39,M,9,Peatón,Sept,Sáb,8,18,0 - 9,2018,1641435,"6,266957253","-75,55039595",03 - Manrique,El Pomar
+Heridos,3/05/2019,09:50:00,Choque,CR 33 CL 47,M,56,Motociclista,May,Vie,3,9,50 - 59,2019,1669173,"6,24022406","-75,55590483",09 - Buenos Aires,Buenos Aires
+Heridos,24/11/2017,16:00:00,Choque,CR 50 CL 30,F,23,Motociclista,Nov,Vie,24,16,20 - 29,2017,1607049,"6,231883656","-75,57443139",10 - La Candelaria,Perpetuo Socorro
+Heridos,17/03/2017,08:00:00,Otro,CL 79 CR 69,M,21,Motociclista,Mar,Vie,17,8,20 - 29,2017,1574880,"6,276723976","-75,57821798",05 - Castilla,El Progreso
+Heridos,04/09/2020,11:30:00,Choque,CR 40 CL 92,M,20,Motociclista,Sept,Vie,4,11,20 - 29,2020,1722384,"6,28343178","-75,54911057",03 - Manrique,La Salle
+Heridos,14/02/2018,14:40:00,Choque,CL 40 CR 38 F,M,18,Motociclista,Feb,Mié,14,14,10 - 19,2018,1616669,"6,238449659","-75,56254038",09 - Buenos Aires,El Salvador
+Heridos,09/09/2020,15:10:00,Volcamiento,CL 56 CR 25 AA,M,23,Acompañante de motocicleta,Sept,Mié,9,15,20 - 29,2020,1722855,"6,24406944","-75,54657118",08 - Villa Hermosa,El Pinal
+Heridos,28/12/2015,17:00:00,Choque,CR 46 CL 105,F,21,Motociclista,Dic,Lun,28,17,20 - 29,2015,1517380,"6,294739754","-75,55272977",02 - Santa Cruz,Villa del Socorro
+Heridos,15/02/2019,10:10:00,Atropello,CL 64 C CR 92 C,M,27,Motociclista,Feb,Vie,15,10,20 - 29,2019,1660262,"6,278147909","-75,60137713",07 - Robledo,Cucaracho
+Heridos,22/02/2017,07:00:00,Choque,CL 78 B CR 75,F,41,Motociclista,Feb,Mié,22,7,40 - 49,2017,1571667,"6,280049327","-75,58414956",07 - Robledo,Altamira
+Heridos,8/11/2016,00:00:00,Caida Ocupante,CR 80 CL 95,M,21,Acompañante de Motocicleta,Nov,Mar,8,0,20 - 29,2016,1558258,"6,293494335","-75,58336626",06 - Doce de Octubre,Picacho
+Heridos,26/05/2015,14:00:00,Choque,CR 48 CL 16 Sur,M,22,Conductor,May,Mar,26,14,20 - 29,2015,1489136,"6,190711043","-75,58026042",14 - El Poblado,Santa María de los Ángeles
+Heridos,29/04/2018,22:30:00,Volcamiento,CR 24 CL 47,M,25,Motociclista,Abr,Dom,29,22,20 - 29,2018,1625426,"6,237207657","-75,55010768",09 - Buenos Aires,Miraflores
+Heridos,16/09/2015,17:00:00,Caida Ocupante,CR 62 CL 57,F,38,Motociclista,Sept,Mié,16,17,30 - 39,2015,1504116,"6,173812503","-75,64389092",80 - Corregimiento de San Antonio de Prado,Cabecera San Antonio de Prado
+Heridos,3/12/2020,14:50:00,Atropello,CL 67 CR 55 AB,M,18,Acompañante de motocicleta,Dic,Jue,3,14,10 - 19,2020,1731485,"6,26459602","-75,56876549",10 - La Candelaria,El Chagualo
+Heridos,06/02/2020,19:00:00,Caida Ocupante,CR 51 CL 78,F,23,Motociclista,Feb,Jue,6,19,20 - 29,2020,1706791,"6,27249422","-75,5623994",04 - Aranjuez,Miranda
+Heridos,21/06/2016,18:00:00,Choque,CL 43 CR 80 B,M,56,Motociclista,Jun,Mar,21,18,50 - 59,2016,1540095,"6,249933789","-75,60134618",11 - Laureles Estadio,Lorena
+Heridos,5/02/2019,05:50:00,Choque,CR 31 CL 48,M,23,Motociclista,Feb,Mar,5,5,20 - 29,2019,1659084,"6,240506946","-75,55399109",09 - Buenos Aires,Buenos Aires
+Heridos,23/09/2020,08:00:00,Choque,CL 78 CR 41,M,25,Motociclista,Sept,Mié,23,8,20 - 29,2020,1724125,"6,27033708","-75,55031740",03 - Manrique,Campo Valdés No. 2
+Heridos,13/11/2014,10:10:00,Choque,DG 64 E CL 67,M,68,Ciclista,Nov,Jue,13,10,60 - 69,2014,1464495,"6,267490622","-75,57652393",05 - Castilla,Caribe
+Heridos,6/04/2016,12:40:00,Choque,CL 55 CR 99,M,17,Motociclista,Abr,Mié,6,12,10 - 19,2016,1529676,"6,272434961","-75,60870158",07 - Robledo,Olaya Herrera
+Heridos,13/02/2021,09:00:00,Atropello,CR 46 CL 115,M,31,Peatón,Feb,Sáb,13,9,30 - 39,2021,1738406,"6,30155229","-75,54869065",01 - Popular,Popular
+Heridos,5/01/2014,16:50:00,Otro,Tramo 8 Kilometro 7,M,21,Motociclista,Ene,Dom,5,16,20 - 29,2014,1424292,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,27/12/2014,16:30:00,Atropello,CL 78 B CR 86,F,6,Acompañante de Motocicleta,Dic,Sáb,27,16,0 - 9,2014,1469944,"6,284774817","-75,58770246",07 - Robledo,El Diamante
+Heridos,13/11/2016,14:00:00,Caida Ocupante,CR 80 CL 73,F,25,Acompañante de Motocicleta,Nov,Dom,13,14,20 - 29,2016,1559089,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,4/03/2014,17:20:00,Atropello,CL 49 CR 53,M,59,Peatón,Mar,Mar,4,17,50 - 59,2014,1431726,"6,249692644","-75,57081011",10 - La Candelaria,San Benito
+Heridos,5/03/2019,06:00:00,Choque,CL 50 CR 68,F,49,Acompañante de Motocicleta,Mar,Mar,5,6,40 - 49,2019,1662499,"6,257641881","-75,5844577",11 - Laureles Estadio,Carlos E. Restrepo
+Heridos,30/11/2020,18:30:00,Choque,CR 999 CL 999,M,32,Motociclista,Nov,Lun,30,18,30 - 39,2020,1730792,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,19/04/2015,11:00:00,Otro,CL 30 A CR 82 A,M,33,Motociclista,Abr,Dom,19,11,30 - 39,2015,1484013,"6,231942761","-75,60416004",16 - Belén,Belén
+Heridos,31/07/2015,16:30:00,Otro,CL 30 CR 77,M,23,Motociclista,Jul,Vie,31,16,20 - 29,2015,1497641,"6,231404157","-75,5970708",16 - Belén,Belén
+Heridos,13/05/2021,16:40:00,Choque,CR 44 CL 10 Sur,M,28,Acompañante de motocicleta,May,Jue,13,16,20 - 29,2021,1746962,"6,19557609","-75,57645795",14 - El Poblado,La Aguacatala
+Heridos,26/03/2019,23:20:00,Choque,CL 30 CR 66 B,M,24,Pasajero,Mar,Mar,26,23,20 - 29,2019,1664971,"6,231652806","-75,5872766",16 - Belén,Rosales
+Heridos,24/04/2015,17:50:00,Caida Ocupante,CR 78 CL 101,F,61,Peatón,Abr,Vie,24,17,60 - 69,2015,1484853,"6,299956338","-75,57839494",06 - Doce de Octubre,Doce de Octubre No.2
+Heridos,15/11/2014,19:21:00,Caida Ocupante,Con Tramo 9,M,21,Motociclista,Nov,Sáb,15,19,20 - 29,2014,1464736,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,15/08/2018,17:00:00,Choque,CR 61 CL 36,F,48,Acompañante de Motocicleta,Ago,Mié,15,17,40 - 49,2018,1638560,"6,238508838","-75,57669231",10 - La Candelaria,Perpetuo Socorro
+Heridos,17/02/2014,17:30:00,Otro,Con,M,44,Motociclista,Feb,Lun,17,17,40 - 49,2014,1429556,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,13/01/2020,21:10:00,Choque,CL 65 C CR 90,M,19,Motociclista,Ene,Lun,13,21,10 - 19,2020,1703621,"6,27852964","-75,59854747",07 - Robledo,Cucaracho
+Heridos,7/05/2018,13:05:00,Volcamiento,CR 50 CL 31,M,21,Motociclista,May,Lun,7,13,20 - 29,2018,1626295,"6,232973761","-75,5742688",10 - La Candelaria,Perpetuo Socorro
+Heridos,19/08/2019,23:40:00,Caida Ocupante,CL 52 A CR 12,M,22,Acompañante de Motocicleta,Ago,Lun,19,23,20 - 29,2019,1683386,"6,23419058","-75,53909762",08 - Villa Hermosa,Villatina
+Heridos,16/12/2014,21:00:00,Otro,CR 36 CL 92 B,M,20,Motociclista,Dic,Mar,16,21,20 - 29,2014,1468737,"6,28325924","-75,5457548",03 - Manrique,La Salle
+Heridos,5/06/2016,10:10:00,Choque,CL 48 E CR 99 C,F,20,Motociclista,Jun,Dom,5,10,20 - 29,2016,1537443,"6,263238026","-75,61354986",13 - San Javier,Juan XXIII La Quiebra
+Heridos,12/05/2019,12:30:00,Choque,CR 64 CL 74,M,31,Pasajero,May,Dom,12,12,30 - 39,2019,1670556,"6,272886861","-75,57488085",05 - Castilla,Caribe
+Heridos,03/06/2021,12:15:00,Otro,CR 42 CL 69,M,30,Motociclista,Jun,Jue,3,12,30 - 39,2021,1749383,"6,19359917","-75,58149654",14 - El Poblado,Santa María de los Ángeles
+Heridos,28/12/2017,10:40:00,Atropello,CL 32 F CR 65 B,Sin Inf,27,Peatón,Dic,Jue,28,10,20 - 29,2017,1611418,"6,238903153","-75,58390828",16 - Belén,Fátima
+Heridos,27/04/2018,08:15:00,Caida Ocupante,CR 70 CL 4,M,40,Motociclista,Abr,Vie,27,8,40 - 49,2018,1625158,"6,246478683","-75,58907907",11 - Laureles Estadio,Bolivariana
+Heridos,20/10/2019,20:20:00,Caida Ocupante,CR 91 CL 78 A,M,30,Acompañante de Motocicleta,Oct,Dom,20,20,30 - 39,2019,1692091,"6,287267013","-75,59170239",07 - Robledo,Aures No.1
+Heridos,4/04/2019,08:50:00,Atropello,CR 47 CL 67,M,23,Acompañante de Motocicleta,Abr,Jue,4,8,20 - 29,2019,1665970,"6,263319495","-75,55657505",04 - Aranjuez,Manrique Central No. 1
+Heridos,09/07/2019,19:30:00,Choque,CR 34 CL 2 Sur,M,20,Motociclista,Jul,Mar,9,19,20 - 29,2019,1677375,"6,199269508","-75,56654975",14 - El Poblado,Alejandría
+Heridos,25/05/2018,10:30:00,Caida Ocupante,CR 67 CL 104,M,25,Motociclista,May,Vie,25,10,20 - 29,2018,1628537,"6,301051127","-75,56725686",05 - Castilla,Boyacá
+Heridos,29/09/2014,09:50:00,Choque,CR 50 CL 61,F,40,Motociclista,Sept,Lun,29,9,40 - 49,2014,1458983,"6,258097785","-75,56274781",10 - La Candelaria,Prado
+Heridos,7/05/2014,08:30:00,Caida Ocupante,CR 47 CL 50,F,23,Acompañante de Motocicleta,May,Mié,7,8,20 - 29,2014,1440171,"6,248665316","-75,56601341",10 - La Candelaria,La Candelaria
+Heridos,9/07/2018,10:30:00,Choque,CR 81 CL 30,M,22,Ciclista,Jul,Lun,9,10,20 - 29,2018,1633870,"6,231411864","-75,60222816",16 - Belén,Belén
+Heridos,31/08/2015,18:00:00,Otro,CR 52 CL 12 Sur,M,27,Motociclista,Ago,Lun,31,18,20 - 29,2015,1501851,"6,197699437","-75,58978154",15 - Guayabal,Guayabal
+Heridos,6/04/2018,21:30:00,Choque,CR 70 CL 74,M,23,Motociclista,Abr,Vie,6,21,20 - 29,2018,1622669,"6,274064846","-75,58026104",07 - Robledo,Bosques de San Pablo
+Heridos,6/11/2015,17:20:00,Caida Ocupante,CR 49 CL 10,M,45,Motociclista,Nov,Vie,6,17,40 - 49,2015,1510708,"6,213904869","-75,5773216",14 - El Poblado,Manila
+Heridos,27/08/2015,19:30:00,Atropello,CR 43 A CL 25,M,23,Peatón,Ago,Jue,27,19,20 - 29,2015,1501284,"6,226508474","-75,5732876",14 - El Poblado,Barrio Colombia
+Heridos,27/07/2018,21:00:00,Otro,CR 42 B CL 111,M,47,Motociclista,Jul,Vie,27,21,40 - 49,2018,1636071,"6,300624609","-75,54562667",01 - Popular,Santo Domingo Savio No. 1
+Heridos,23/08/2018,21:50:00,Otro,CR 74 CL 69,M,31,Motociclista,Ago,Jue,23,21,30 - 39,2018,1639528,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,16/01/2020,18:00:00,Choque,CL 33 CR 76,M,49,Motociclista,Ene,Jue,16,18,40 - 49,2020,1703886,"6,23902369","-75,59669939",16 - Belén,El Nogal-Los Almendros
+Heridos,6/10/2015,21:30:00,Volcamiento,CR 29 CL 4 Sur,M,58,Pasajero,Oct,Mar,6,21,50 - 59,2015,1506920,"6,195279687","-75,56116171",14 - El Poblado,Los Naranjos
+Heridos,22/12/2020,18:00:00,Caida Ocupante,CL 52 CR 24,M,29,Motociclista,Dic,Mar,22,18,20 - 29,2020,1733564,"6,24114087","-75,54686234",08 - Villa Hermosa,El Pinal
+Heridos,27/05/2014,15:30:00,Caida Ocupante,CR 44 CL 28,F,21,Motociclista,May,Mar,27,15,20 - 29,2014,1442813,"6,228402568","-75,571814",14 - El Poblado,Barrio Colombia
+Heridos,27/02/2019,06:45:00,Caida Ocupante,CR 80 CL 47,F,25,Motociclista,Feb,Mié,27,6,20 - 29,2019,1661919,"6,257153728","-75,59810696",11 - Laureles Estadio,El Velódromo
+Heridos,9/12/2016,01:30:00,Choque,CR 89 CL 32,M,19,Pasajero,Dic,Vie,9,1,10 - 19,2016,1562341,"6,235643101","-75,61210926",16 - Belén,Las Mercedes
+Heridos,23/11/2019,22:20:00,Choque,CR 62 CL 68,F,25,Acompañante de Motocicleta,Nov,Sáb,23,22,20 - 29,2019,1696989,"6,265087354","-75,5717032",04 - Aranjuez,Universidad de Antioquia
+Heridos,23/11/2018,11:45:00,Choque,CL 95 CR 2 A,F,28,Conductor,Nov,Vie,23,11,20 - 29,2018,1650604,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,24/12/2019,19:50:00,Caida Ocupante,CL 67 CR 64,M,22,Motociclista,Dic,Mar,24,19,20 - 29,2019,1701161,"6,265070406","-75,5717504",05 - Castilla,Caribe
+Heridos,11/10/2014,11:45:00,Choque,CR 41 CL 59,M,21,Motociclista,Oct,Sáb,11,11,20 - 29,2014,1460658,"6,252366986","-75,55798481",10 - La Candelaria,Los Ángeles
+Heridos,09/02/2021,09:00:00,Volcamiento,CR 62 CL 44,F,25,Acompañante de motocicleta,Feb,Mar,9,9,20 - 29,2021,1738018,"6,24784041","-75,57994084",10 - La Candelaria,Corazón de Jesús
+Heridos,22/08/2017,06:00:00,Choque,CR 43 CL 59,M,17,Ciclista,Ago,Mar,22,6,10 - 19,2017,1594746,"6,253481873","-75,55925431",10 - La Candelaria,Los Ángeles
+Heridos,08/02/2020,19:00:00,Choque,CR 102 CL 47,M,34,Motociclista,Feb,Sáb,8,19,30 - 39,2020,1706830,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,31/01/2017,07:00:00,Choque,CL 28 CR 84 B,M,Sin Inf,Motociclista,Ene,Mar,31,7,0 - 9,2017,1568730,"6,229572419","-75,60787122",16 - Belén,Los Alpes
+Heridos,12/08/2020,13:20:00,Volcamiento,CL 58 CR 57,M,39,Motociclista,Ago,Mié,12,13,30 - 39,2020,1720538,"6,2591325","-75,57233555",10 - La Candelaria,El Chagualo
+Heridos,20/11/2019,16:03:00,Atropello,CL 55 CR 58,M,22,Peatón,Nov,Mié,20,16,20 - 29,2019,1696464,"6,256753262","-75,57374947",10 - La Candelaria,San Benito
+Heridos,18/06/2019,21:00:00,Choque,CR 45 CL 71,M,39,Pasajero,Jun,Mar,18,21,30 - 39,2019,1675112,"6,26638876","-75,55521679",03 - Manrique,Manrique Central No. 2
+Heridos,31/12/2020,19:30:00,Atropello,CR 39 CL 96,F,40,Peatón,Dic,Jue,31,19,40 - 49,2020,1734302,"6,28711375","-75,54832775",01 - Popular,San Pablo
+Heridos,04/07/2020,17:05:00,Choque,CR 60 CL 46,M,47,Motociclista,Jul,Sáb,4,17,40 - 49,2020,1717895,"6,24998264","-75,57750427",10 - La Candelaria,Corazón de Jesús
+Heridos,2/06/2015,12:00:00,Atropello,CL 20 CR 74,M,34,Peatón,Jun,Mar,2,12,30 - 39,2015,1489993,"6,224029464","-75,59570081",16 - Belén,San Bernardo
+Heridos,27/05/2019,16:00:00,Otro,CR 50 CL 33,M,49,Motociclista,May,Lun,27,16,40 - 49,2019,1672362,"6,233593381","-75,57419544",10 - La Candelaria,Perpetuo Socorro
+Heridos,1/03/2015,11:15:00,Choque,CL 45 CR 31,M,19,Motociclista,Mar,Dom,1,11,10 - 19,2015,1477755,"6,23834642","-75,55500877",09 - Buenos Aires,Buenos Aires
+Heridos,9/12/2014,05:30:00,Otro,CL 78 CR 72,M,21,Acompañante de Motocicleta,Dic,Mar,9,5,20 - 29,2014,1467841,"6,276477434","-75,58163892",07 - Robledo,Bosques de San Pablo
+Heridos,17/05/2021,12:10:00,Choque,CR 65 CL 85 A,F,12,Acompañante de motocicleta,May,Lun,17,12,10 - 19,2021,1747244,"6,28065054","-75,57241821",05 - Castilla,Alfonso López
+Heridos,02/06/2021,17:40:00,Volcamiento,CR 119 CL 42,M,19,Motociclista,Jun,Mié,2,17,10 - 19,2021,1749220,"6,23167143","-75,5872732",16 - Belén,Rosales
+Heridos,6/06/2014,08:00:00,Otro,CR 51 CL 10,M,35,Motociclista,Jun,Vie,6,8,30 - 39,2014,1444139,"6,2137187","-75,5783574",15 - Guayabal,Campo Amor
+Heridos,30/07/2014,14:40:00,Choque,CR 57 CL 46,M,20,Motociclista,Jul,Mié,30,14,20 - 29,2014,1451063,"6,249125105","-75,57519872",10 - La Candelaria,Guayaquil
+Heridos,5/12/2015,21:30:00,Atropello,CL 67 CR 51 C,M,33,Peatón,Dic,Sáb,5,21,30 - 39,2015,1514489,"6,264008903","-75,56460928",04 - Aranjuez,Sevilla
+Heridos,19/04/2021,15:30:00,Choque,CL 52 CR 22,M,42,Motociclista,Abr,Lun,19,15,40 - 49,2021,1744790,"6,24047803","-75,54534309",08 - Villa Hermosa,La Libertad
+Heridos,27/08/2020,11:40:00,Choque,CR 52 CL 12 A Sur,M,32,Acompañante de motocicleta,Ago,Jue,27,11,30 - 39,2020,1721655,"6,19712327","-75,5901219",15 - Guayabal,Guayabal
+Heridos,08/06/2021,06:45:00,Choque,CR 63 CL 49,Sin Inf,29,Motociclista,Jun,Mar,8,6,20 - 29,2021,1749861,"6,29886829","-75,57980729",06 - Doce de Octubre,Doce de Octubre No.2
+Heridos,18/01/2016,15:45:00,Choque,CR 35 CL 5 Sur,M,18,Motociclista,Ene,Lun,18,15,10 - 19,2016,1519502,"6,196941693","-75,56841556",14 - El Poblado,Los Balsos No.2
+Heridos,24/06/2015,21:50:00,Otro,CL 104 CR 67,M,38,Motociclista,Jun,Mié,24,21,30 - 39,2015,1492791,"6,301067399","-75,56727664",05 - Castilla,Tejelo
+Heridos,25/03/2014,13:40:00,Atropello,CR 64 C CL 72,F,47,Peatón,Mar,Mar,25,13,40 - 49,2014,1434518,"6,270420059","-75,5738452",05 - Castilla,Caribe
+Heridos,29/05/2017,19:00:00,Atropello,CR 51 CL 77,M,47,Motociclista,May,Lun,29,19,40 - 49,2017,1583847,"6,271445046","-75,56219673",04 - Aranjuez,Miranda
+Heridos,3/02/2018,13:50:00,Caida Ocupante,CL 53 CR 84,M,26,Motociclista,Feb,Sáb,3,13,20 - 29,2018,1615180,"6,269124157","-75,59901864",13 - San Javier,El Pesebre
+Heridos,26/01/2015,07:30:00,Choque,CR 43 B CL 104,M,31,Motociclista,Ene,Lun,26,7,30 - 39,2015,1473616,"6,293472132","-75,55043317",02 - Santa Cruz,Villa del Socorro
+Heridos,14/05/2016,18:00:00,Atropello,CL 107 CR 36,F,8,Peatón,May,Sáb,14,18,0 - 9,2016,1534703,"6,296873731","-75,54588386",01 - Popular,Santo Domingo Savio No. 1
+Heridos,30/06/2017,16:00:00,Choque,CR 999 CL 999,M,13,Ciclista,Jun,Vie,30,16,10 - 19,2017,1587902,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,5/09/2015,11:40:00,Atropello,CR 51 CL 52,M,19,Motociclista,Sept,Sáb,5,11,10 - 19,2015,1502563,"6,251300155","-75,56798083",10 - La Candelaria,La Candelaria
+Heridos,2/06/2014,17:10:00,Choque,CL 58 CR 55,F,20,Acompañante de Motocicleta,Jun,Lun,2,17,20 - 29,2014,1443495,"6,258228575","-75,57049508",10 - La Candelaria,Jesús Nazareno
+Heridos,4/05/2014,15:00:00,Caida Ocupante,CR 52 CL 81,M,24,Pasajero,May,Dom,4,15,20 - 29,2014,1439703,"6,275508835","-75,56434501",04 - Aranjuez,Miranda
+Heridos,11/09/2014,12:30:00,Atropello,CL 38 CR 110,F,11,Peatón,Sept,Jue,11,12,10 - 19,2014,1456665,"6,250171821","-75,62176459",13 - San Javier,Las Independencias
+Heridos,23/08/2018,16:30:00,Otro,CR 80 CL 79,M,26,Motociclista,Ago,Jue,23,16,20 - 29,2018,1639449,"6,282158957","-75,58554291",07 - Robledo,Altamira
+Heridos,24/05/2017,18:00:00,Volcamiento,CL 52 CR 19,F,29,Motociclista,May,Mié,24,18,20 - 29,2017,1583865,"6,238002475","-75,54411891",08 - Villa Hermosa,Villatina
+Heridos,02/01/2020,19:15:00,Caida Ocupante,CL 94 CR 83,M,41,Acompañante de motocicleta,Ene,Jue,2,19,40 - 49,2020,1702487,"6,29362343","-75,58406333",06 - Doce de Octubre,Picacho
+Heridos,22/06/2019,04:40:00,Otro,CR 34 CL 97,M,52,Motociclista,Jun,Sáb,22,4,50 - 59,2019,1675441,"6,287551322","-75,54436581",01 - Popular,San Pablo
+Heridos,15/09/2017,16:30:00,Otro,CR 76 CL 32,M,31,Motociclista,Sept,Vie,15,16,30 - 39,2017,1598148,"6,233676978","-75,5963465",16 - Belén,Belén
+Heridos,28/03/2019,20:00:00,Otro,CL 71 CR 30,F,25,Motociclista,Mar,Jue,28,20,20 - 29,2019,1665103,"6,265245912","-75,5432506",03 - Manrique,Versalles No. 1
+Heridos,21/10/2016,06:45:00,Choque,TV 14 CR 45,M,24,Motociclista,Oct,Vie,21,6,20 - 29,2016,1556087,"6,21534383","-75,57350279",14 - El Poblado,Villa Carlota
+Heridos,9/07/2018,15:15:00,Otro,CL 78 B CR 69,M,19,Motociclista,Jul,Lun,9,15,10 - 19,2018,1633896,"6,275977852","-75,57874523",07 - Robledo,Altamira
+Heridos,01/07/2021,22:05:00,Atropello,CR 62 CL 54,M,33,Motociclista,Jul,Jue,1,22,30 - 39,2021,1752622,"6,25658154","-75,57513967",10 - La Candelaria,San Benito
+Heridos,04/10/2019,13:20:00,Choque,CL 10 CR 48,M,21,Motociclista,Oct,Vie,4,13,20 - 29,2019,1689896,"6,213341333","-75,57614666",14 - El Poblado,Manila
+Heridos,22/06/2021,20:00:00,Caida Ocupante,CR 50 CL 41,F,42,Pasajero,Jun,Mar,22,20,40 - 49,2021,1751480,"6,29066539","-75,5520373",01 - Popular,Moscú No. 2
+Heridos,3/05/2019,14:30:00,Choque,CR 39 CL 89,M,35,Motociclista,May,Vie,3,14,30 - 39,2019,1669223,"6,281507403","-75,54860847",03 - Manrique,La Salle
+Heridos,10/06/2018,22:40:00,Choque,CR 27 CL 109 D,M,19,Acompañante de Motocicleta,Jun,Dom,10,22,10 - 19,2018,1630520,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,19/12/2019,21:20:00,Otro,CL 34 A CR 116,M,17,Acompañante de Motocicleta,Dic,Jue,19,21,10 - 19,2019,1700649,"6,241488301","-75,62789133",70 - Corregimiento de Altavista,Aguas Frias
+Heridos,14/04/2015,19:00:00,Otro,Tramo 18,M,20,Motociclista,Abr,Mar,14,19,20 - 29,2015,1483397,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,29/06/2014,07:50:00,Choque,CL 58 CR 57,M,18,Motociclista,Jun,Dom,29,7,10 - 19,2014,1447002,"6,258269603","-75,57181765",10 - La Candelaria,El Chagualo
+Heridos,17/06/2019,08:45:00,Choque,CR 46 CL 41,F,30,Motociclista,Jun,Lun,17,8,30 - 39,2019,1674905,"6,241120591","-75,56962903",10 - La Candelaria,Barrio Colón
+Heridos,12/10/2018,20:58:00,Choque,CR 999 CL 70,F,22,Acompañante de Motocicleta,Oct,Vie,12,20,20 - 29,2018,1645892,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,15/02/2017,06:40:00,Otro,CR 63 CL 44,M,23,Motociclista,Feb,Mié,15,6,20 - 29,2017,1570654,"6,248048074","-75,58046807",11 - Laureles Estadio,Naranjal
+Heridos,19/12/2017,16:45:00,Atropello,CL 40 CR 98 A,M,63,Peatón,Dic,Mar,19,16,60 - 69,2017,1610318,"6,254600045","-75,61630601",13 - San Javier,San Javier No.1
+Heridos,18/10/2016,11:50:00,Choque,CL 51 A CR 75,M,30,Motociclista,Oct,Mar,18,11,30 - 39,2016,1555594,"6,261015277","-75,58991706",11 - Laureles Estadio,Cuarta Brigada
+Heridos,5/08/2017,08:48:00,Atropello,CL 53 CR 53,F,36,Peatón,Ago,Sáb,5,8,30 - 39,2017,1592610,"6,253077503","-75,56942689",10 - La Candelaria,Estación Villa
+Heridos,29/11/2014,22:50:00,Atropello,CL 106 CR 34,F,18,Peatón,Nov,Sáb,29,22,10 - 19,2014,1466499,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,2/07/2014,06:30:00,Otro,CL 58 CR 131,M,44,Motociclista,Jul,Mié,2,6,40 - 49,2014,1447419,"6,27520546","-75,63489802",60 - Corregimiento de San Cristóbal,La Loma
+Heridos,4/08/2014,16:15:00,Choque,CR 70 CL 3,M,25,Motociclista,Ago,Lun,4,16,20 - 29,2014,1451733,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,1/08/2016,13:00:00,Choque,CR 64 AA CL 111,M,23,Motociclista,Ago,Lun,1,13,20 - 29,2016,1544823,"6,30319785","-75,55935",05 - Castilla,Héctor Abad Gómez
+Heridos,9/07/2016,12:00:00,Choque,CR 62 CL 58,M,62,Conductor,Jul,Sáb,9,12,60 - 69,2016,1541788,"6,260362813","-75,57330223",10 - La Candelaria,El Chagualo
+Heridos,30/06/2015,18:20:00,Atropello,CL 44 CR 58,M,34,Peatón,Jun,Mar,30,18,30 - 39,2015,1493468,"6,246843071","-75,57690689",10 - La Candelaria,Corazón de Jesús
+Heridos,22/09/2018,12:30:00,Choque,CL 77 CR 82,F,17,Acompañante de Motocicleta,Sept,Sáb,22,12,10 - 19,2018,1643136,"6,282396835","-75,58718908",07 - Robledo,El Diamante
+Heridos,9/12/2014,14:00:00,Otro,CL 95 CR 40,M,34,Motociclista,Dic,Mar,9,14,30 - 39,2014,1467856,"6,286129524","-75,5492777",01 - Popular,Villa Guadalupe
+Heridos,25/05/2014,19:00:00,Atropello,CR 76 CL 92,M,19,Motociclista,May,Dom,25,19,10 - 19,2014,1442523,"6,289213102","-75,58159957",06 - Doce de Octubre,Kennedy
+Heridos,7/01/2014,05:10:00,Caida Ocupante,CL 44 CR 52,F,45,Pasajero,Ene,Mar,7,5,40 - 49,2014,1424477,"6,245047728","-75,57150453",10 - La Candelaria,Guayaquil
+Heridos,09/03/2020,16:30:00,Choque,CR 52 CL 98 A,M,36,Motociclista,Mar,Lun,9,16,30 - 39,2020,1710742,"6,29193955","-75,56208457",02 - Santa Cruz,La Rosa
+Heridos,26/08/2020,13:30:00,Volcamiento,CR 58 CL 61,M,42,Acompañante de motocicleta,Ago,Mié,26,13,40 - 49,2020,1721704,"6,26226791","-75,57240421",10 - La Candelaria,El Chagualo
+Heridos,4/05/2014,16:30:00,Choque,CR 62 CL 41,M,53,Motociclista,May,Dom,4,16,50 - 59,2014,1439663,"6,242086223","-75,57769384",10 - La Candelaria,La Alpujarra
+Heridos,28/09/2019,12:30:00,Atropello,CL 52 CR 26,M,25,Motociclista,Sept,Sáb,28,12,20 - 29,2019,1689065,"6,24236458","-75,54854045",08 - Villa Hermosa,El Pinal
+Heridos,1/05/2016,19:30:00,Choque,CL 34 CR 42,M,24,Motociclista,May,Dom,1,19,20 - 29,2016,1533076,"6,233559029","-75,5673655",10 - La Candelaria,San Diego
+Heridos,25/11/2016,20:30:00,Caida Ocupante,CR 65 A CL 34,F,68,Pasajero,Nov,Vie,25,20,60 - 69,2016,1560850,"6,240016968","-75,58313518",11 - Laureles Estadio,Los Conquistadores
+Heridos,03/01/2021,19:00:00,Choque,CL 106 D CR 82 A,Sin inf,11,Ciclista,Ene,Dom,3,19,10 - 19,2021,1734498,"6,30878087","-75,57927512",06 - Doce de Octubre,Doce de Octubre No.1
+Heridos,05/12/2019,12:00:00,Volcamiento,CL 65 CR 85,F,37,Motociclista,Dic,Jue,05,12,30 - 39,2019,1698519,"6,275431136","-75,59604218",07 - Robledo,Robledo
+Heridos,6/02/2014,06:50:00,Volcamiento,CR 1 CL 1,M,21,Motociclista,Feb,Jue,6,6,20 - 29,2014,1428065,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,14/09/2021,11:00:00,Choque,CR 84 CL 98 C,F,6,Pasajero,Sep,Mar,14,11,0 - 9,2021,1762036,"-75,58341505","6,29988287",06 - Doce de Octubre,Picacho
+Heridos,14/07/2015,14:43:00,Choque,CL 29 CR 45,F,39,Pasajero,Jul,Mar,14,14,30 - 39,2015,1495286,"6,2304372","-75,57313164",10 - La Candelaria,Perpetuo Socorro
+Heridos,1/10/2018,11:05:00,Choque,CR 70 CL 2,M,49,Motociclista,Oct,Lun,1,11,40 - 49,2018,1644325,"6,245142425","-75,58928863",11 - Laureles Estadio,Bolivariana
+Heridos,6/02/2017,11:30:00,Atropello,CR 45 CL 53,M,50,Peatón,Feb,Lun,6,11,50 - 59,2017,1569477,"6,249632012","-75,56299801",10 - La Candelaria,La Candelaria
+Heridos,3/04/2014,08:30:00,Choque,CL 44 CR 78,M,35,Motociclista,Abr,Jue,3,8,30 - 39,2014,1435836,"6,250164793","-75,59687292",12 - La América,Los Pinos
+Heridos,18/04/2015,13:10:00,Choque,CR 65 CL 59,M,45,Motociclista,Abr,Sáb,18,13,40 - 49,2015,1483907,"6,259500658","-75,57983201",07 - Robledo,Nueva Villa de la Iguaná
+Heridos,30/08/2019,17:30:00,Choque,CR 41 CL 46,M,31,Motociclista,Ago,Vie,30,17,30 - 39,2019,1684746,"6,242597842","-75,56310922",10 - La Candelaria,Bomboná No.1
+Heridos,26/08/2019,21:20:00,Caida Ocupante,CL 78 CR 54 B,M,28,Motociclista,Ago,Lun,26,21,20 - 29,2019,1684186,"6,27341652","-75,56605218",04 - Aranjuez,Moravia
+Heridos,1/11/2015,15:25:00,Choque,CR 50 CL 31,M,52,Pasajero,Nov,Dom,1,15,50 - 59,2015,1510048,"6,232935603","-75,57466079",10 - La Candelaria,Perpetuo Socorro
+Heridos,02/07/2020,05:35:00,Otro,CR 76 CL 49 F,M,22,Motociclista,Jul,Jue,2,5,20 - 29,2020,1717784,"6,26046054","-75,59145975",11 - Laureles Estadio,El Estadio
+Heridos,18/01/2020,11:30:00,Caida Ocupante,CR 120 CL 62,M,50,Motociclista,Ene,Sáb,18,11,50 - 59,2020,1703999,"6,27802384","-75,62600173",60 - Corregimiento de San Cristóbal,Cabecera Urbana San Cristobal
+Heridos,30/04/2016,19:45:00,Choque,CL 111 A CR 64 C,M,23,Motociclista,Abr,Sáb,30,19,20 - 29,2016,1532932,"6,303792015","-75,5628546",05 - Castilla,Las Brisas
+Heridos,1/05/2017,08:10:00,Caida Ocupante,CL 67 CR 55 AB,F,29,Motociclista,May,Lun,1,8,20 - 29,2017,1580127,"6,26469045","-75,56874957",04 - Aranjuez,Universidad de Antioquia
+Heridos,13/03/2016,16:30:00,Atropello,CL 24 CR 43 E,M,27,Motociclista,Mar,Dom,13,16,20 - 29,2016,1526607,"6,225631263","-75,57406694",14 - El Poblado,Barrio Colombia
+Heridos,13/11/2015,05:15:00,Choque,CR 50 CL 4 Sur,M,26,Motociclista,Nov,Vie,13,5,20 - 29,2015,1511570,"6,203043373","-75,57995662",15 - Guayabal,Cristo Rey
+Heridos,06/10/2020,19:00:00,Choque,CL 5 CR 76,M,39,Motociclista,Oct,Mar,6,19,30 - 39,2020,1725291,"6,21648154","-75,60035075",16 - Belén,Loma de los Bernal
+Heridos,28/08/2020,08:30:00,Choque,CR 52 CL 29,M,44,Motociclista,Ago,Vie,28,8,40 - 49,2020,1721882,"6,22772201","-75,57777855",15 - Guayabal,Santa Fé
+Heridos,21/01/2019,17:20:00,Choque,CR 62 CL 58,M,19,Motociclista,Ene,Lun,21,17,10 - 19,2019,1657297,"6,172594219","-75,6433345",80 - Corregimiento de San Antonio de Prado,Cabecera San Antonio de Prado
+Heridos,15/08/2017,21:30:00,Otro,CR 57 CL 39,F,36,Motociclista,Ago,Mar,15,21,30 - 39,2017,1593994,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,14/08/2020,06:30:00,Otro,CR 65 CL 50,M,29,Motociclista,Ago,Vie,14,6,20 - 29,2020,1720695,"6,25617825","-75,58104787",11 - Laureles Estadio,Carlos E. Restrepo
+Heridos,01/02/2020,12:00:00,Atropello,CL 80 CR 71 A,M,28,Acompañante de motocicleta,Feb,Sáb,1,12,20 - 29,2020,1706203,"6,27955384","-75,57809212",07 - Robledo,Córdoba
+Heridos,17/01/2020,11:50:00,Choque,CR 80 CL 64 A,M,17,Motociclista,Ene,Vie,17,11,10 - 19,2020,1703914,"6,27280802","-75,59327965",07 - Robledo,San Germán
+Heridos,12/09/2019,06:45:00,Otro,CR 79 CL 72,F,26,Motociclista,Sept,Jue,12,6,20 - 29,2019,1686689,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,15/07/2021,13:59:00,Choque,CL 44 CR 53,M,32,Motociclista,Jul,Jue,15,13,30 - 39,2021,1754276,"6,22178433","-75,7039017",Sin Inf,Sin Inf
+Heridos,28/02/2019,17:10:00,Otro,CQ 35 CL 55,M,48,Motociclista,Feb,Jue,28,17,40 - 49,2019,1661924,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,9/02/2016,10:00:00,Atropello,CR 52 CL 29 A,F,64,Peatón,Feb,Mar,9,10,60 - 69,2016,1522298,"6,229129687","-75,57718464",15 - Guayabal,Santa Fé
+Heridos,5/05/2019,04:55:00,Choque,CL 30 CR 66 B,M,49,Acompañante de Motocicleta,May,Dom,5,4,40 - 49,2019,1669376,"6,231652806","-75,5872766",16 - Belén,Rosales
+Heridos,17/05/2016,12:40:00,Atropello,CR 83 CL 101 D,M,0,Peatón,May,Mar,17,12,0 - 9,2016,1535082,"6,303186108","-75,58228345",06 - Doce de Octubre,Doce de Octubre No.2
+Heridos,01/08/2020,08:20:00,Otro,CR 43 B CL 1 A Sur,M,25,Motociclista,Ago,Sáb,1,8,20 - 29,2020,1719814,"6,20318679","-75,57300815",14 - El Poblado,Patio Bonito
+Heridos,21/03/2015,22:30:00,Choque,CR 72 CL 94,M,38,Motociclista,Mar,Sáb,21,22,30 - 39,2015,1480644,"6,289556436","-75,5755817",05 - Castilla,Castilla
+Heridos,10/05/2020,06:00:00,Caida Ocupante,CL 34 CC CR 89,M,31,Motociclista,May,Dom,10,6,30 - 39,2020,1714066,"6,24444056","-75,61665923",13 - San Javier,Belencito
+Heridos,20/11/2018,07:00:00,Otro,CL 29 CR 78 A,F,28,Motociclista,Nov,Mar,20,7,20 - 29,2018,1650305,"6,230503534","-75,59878524",16 - Belén,Belén
+Heridos,23/01/2020,09:20:00,Choque,CL 18 CR 37 A,M,42,Motociclista,Ene,Jue,23,9,40 - 49,2020,1704556,"6,22064396","-75,566216",14 - El Poblado,Castropol
+Heridos,22/05/2017,06:30:00,Choque,CL 62 A CR 110,M,Sin Inf,Motociclista,May,Lun,22,6,Sin Inf,2017,1583046,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,03/12/2019,12:30:00,Otro,CR 46 CL 52,F,18,Acompañante de Motocicleta,Dic,Mar,03,12,10 - 19,2019,1698118,"6,249235662","-75,56473382",10 - La Candelaria,La Candelaria
+Heridos,21/02/2020,21:40:00,Caida Ocupante,CR 81 CL 4,M,42,Motociclista,Feb,Vie,21,21,40 - 49,2020,1708831,"6,21516986","-75,60513408",16 - Belén,El Rincón
+Heridos,29/04/2014,11:14:00,Choque,CR 33 CL 46,M,23,Motociclista,Abr,Mar,29,11,20 - 29,2014,1439083,"6,239455528","-75,55620542",09 - Buenos Aires,Buenos Aires
+Heridos,17/09/2015,11:20:00,Otro,CL 80 CR 81,M,30,Motociclista,Sept,Jue,17,11,30 - 39,2015,1504278,"6,231215524","-75,60064104",16 - Belén,La Palma
+Heridos,17/06/2015,07:15:00,Volcamiento,CR 64 CL 45,F,22,Motociclista,Jun,Mié,17,7,20 - 29,2015,1491829,"6,248491265","-75,58248409",11 - Laureles Estadio,Naranjal
+Heridos,9/03/2014,00:45:00,Caida Ocupante,CL 27 CR 65,M,Sin Inf,Motociclista,Mar,Dom,9,0,Sin Inf,2014,1432194,"6,228051435","-75,58318978",15 - Guayabal,Trinidad
+Heridos,26/03/2018,15:00:00,Choque,CR 58 CL 43 Sur,F,51,Acompañante de Motocicleta,Mar,Lun,26,15,50 - 59,2018,1621553,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,13/01/2020,21:10:00,Choque,CL 65 C CR 90,M,52,Motociclista,Ene,Lun,13,21,50 - 59,2020,1703621,"6,27852964","-75,59854747",07 - Robledo,Cucaracho
+Heridos,17/08/2018,07:15:00,Choque,CL 50 CR 66,M,40,Motociclista,Ago,Vie,17,7,40 - 49,2018,1638800,"6,256616587","-75,58210049",11 - Laureles Estadio,Carlos E. Restrepo
+Heridos,16/06/2020,09:50:00,Atropello,CR 65 CL 84,M,26,Motociclista,Jun,Mar,16,9,20 - 29,2020,1716516,"6,28047298","-75,57239924",05 - Castilla,Terminal de Transporte
+Heridos,08/08/2020,16:20:00,Choque,CL 39 F CR 107,M,27,Motociclista,Ago,Sáb,8,16,20 - 29,2020,1720346,"6,25293327","-75,62060456",13 - San Javier,Veinte de Julio
+Heridos,18/01/2020,08:40:00,Choque,CR 63 CL 112,M,20,Acompañante de motocicleta,Ene,Sáb,18,8,20 - 29,2020,1703980,"6,30665735","-75,558147",05 - Castilla,Toscana
+Heridos,19/07/2015,00:40:00,Caida Ocupante,CR 57 CL 57,M,34,Motociclista,Jul,Dom,19,0,30 - 39,2015,1495831,"6,25704923","-75,57173659",10 - La Candelaria,Estación Villa
+Heridos,12/02/2018,12:00:00,Choque,CL 44 CR 101,M,25,Motociclista,Feb,Lun,12,12,20 - 29,2018,1616321,"6,257093009","-75,61667829",13 - San Javier,San Javier No.1
+Heridos,2/05/2017,07:50:00,Choque,CR 82 C CL 101 A,F,48,Pasajero,May,Mar,2,7,40 - 49,2017,1580582,"6,302604342","-75,57975527",06 - Doce de Octubre,Doce de Octubre No.1
+Heridos,15/10/2016,21:20:00,Choque,CR 49 CL 45,F,32,Pasajero,Oct,Sáb,15,21,30 - 39,2016,1555525,"6,245475006","-75,56909174",10 - La Candelaria,Barrio Colón
+Heridos,30/11/2017,22:00:00,Caida Ocupante,CL 63 CR 91,F,21,Motociclista,Nov,Jue,30,22,20 - 29,2017,1607930,"6,278079415","-75,60110302",07 - Robledo,Cucaracho
+Heridos,19/08/2019,20:40:00,Choque,CR 7 CL 1,M,20,Acompañante de Motocicleta,Ago,Lun,19,20,20 - 29,2019,1683177,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,3/10/2017,17:50:00,Atropello,CR 80 CL 52 B,M,74,Peatón,Oct,Mar,3,17,70 - 79,2017,1600736,"6,266359679","-75,5959914",11 - Laureles Estadio,Los Colores
+Heridos,10/10/2016,06:50:00,Caida Ocupante,CR 90 B CL 81,F,23,Motociclista,Oct,Lun,10,6,20 - 29,2016,1554619,"6,289642585","-75,58924785",07 - Robledo,Aures No. 2
+Heridos,18/08/2017,18:00:00,Caida Ocupante,CL 9 Sur CR 33,F,28,Acompañante de Motocicleta,Ago,Vie,18,18,20 - 29,2017,1594418,"6,191870432","-75,56731048",14 - El Poblado,Los Balsos No.2
+Heridos,20/10/2015,15:00:00,Otro,CL 44 CR 59,F,21,Motociclista,Oct,Mar,20,15,20 - 29,2015,1508607,"6,247087328","-75,57761609",10 - La Candelaria,Corazón de Jesús
+Heridos,6/04/2019,21:30:00,Otro,CR 80 CL 54,M,25,Motociclista,Abr,Sáb,6,21,20 - 29,2019,1666407,"6,268154052","-75,59570702",11 - Laureles Estadio,Los Colores
+Heridos,07/10/2019,02:40:00,Otro,CL 82 CR 41,M,25,Motociclista,Oct,Lun,7,2,20 - 29,2019,1690162,"6,273836348","-75,54985694",03 - Manrique,Campo Valdés No. 2
+Heridos,9/03/2016,21:50:00,Caida Ocupante,CL 55 CR 102,M,32,Motociclista,Mar,Mié,9,21,30 - 39,2016,1526103,"6,272581333","-75,61073965",07 - Robledo,Olaya Herrera
+Heridos,17/11/2015,05:00:00,Atropello,CR 52 CL 25,F,34,Peatón,Nov,Mar,17,5,30 - 39,2015,1512107,"6,225875538","-75,57825418",15 - Guayabal,Santa Fé
+Heridos,11/07/2018,16:30:00,Choque,CL 36 CR 53,F,26,Motociclista,Jul,Mié,11,16,20 - 29,2018,1634312,"6,238111999","-75,57483073",10 - La Candelaria,Perpetuo Socorro
+Heridos,10/01/2018,12:10:00,Choque,CL 54 CR 50,M,36,Motociclista,Ene,Mié,10,12,30 - 39,2018,1612502,"6,25308403","-75,56627993",10 - La Candelaria,Villa Nueva
+Heridos,08/04/2021,01:30:00,Caida Ocupante,CL 54 CR 85,F,24,Motociclista,Abr,Jue,8,1,20 - 29,2021,1743829,"6,27139147","-75,60108513",13 - San Javier,El Pesebre
+Heridos,1/03/2018,16:30:00,Otro,CL 58 CR 49,F,39,Motociclista,Mar,Jue,1,16,30 - 39,2018,1618347,"6,255448114","-75,56347293",10 - La Candelaria,Villa Nueva
+Heridos,26/04/2016,20:45:00,Choque,CL 50 CR 3,M,22,Motociclista,Abr,Mar,26,20,20 - 29,2016,1532356,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,1/06/2018,21:38:00,Atropello,CR 66 B CL 42 C,M,51,Peatón,Jun,Vie,1,21,50 - 59,2018,1629488,"6,24523183","-75,58448129",11 - Laureles Estadio,San Joaquín
+Heridos,15/03/2018,05:40:00,Otro,CL 30 CR 74,M,48,Motociclista,Mar,Jue,15,5,40 - 49,2018,1620172,"6,231492724","-75,5944999",16 - Belén,Belén
+Heridos,10/09/2018,17:50:00,Caida Ocupante,CR 49 CL 94,F,31,Pasajero,Sept,Lun,10,17,30 - 39,2018,1641683,"6,285786867","-75,55596785",04 - Aranjuez,Berlin
+Heridos,8/03/2018,13:00:00,Choque,CR 48 CL 10 Sur,M,28,Motociclista,Mar,Jue,8,13,20 - 29,2018,1619399,"6,19710986","-75,57867848",14 - El Poblado,La Aguacatala
+Heridos,18/03/2015,06:20:00,Caida Ocupante,CL 120 CR 64 AA,F,22,Acompañante de Motocicleta,Mar,Mié,18,6,20 - 29,2015,1480123,"6,31143379","-75,55859808",05 - Castilla,Las Brisas
+Heridos,22/07/2015,21:30:00,Caida Ocupante,CR 60 CL 33,M,23,Motociclista,Jul,Mié,22,21,20 - 29,2015,1496482,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,19/11/2014,22:40:00,Choque,CR 78 CL 101,M,20,Motociclista,Nov,Mié,19,22,20 - 29,2014,1465160,"6,299956338","-75,57839494",06 - Doce de Octubre,Doce de Octubre No.2
+Heridos,11/06/2016,17:40:00,Choque,CR 49 CL 62,M,32,Motociclista,Jun,Sáb,11,17,30 - 39,2016,1538224,"6,258392408","-75,56153348",10 - La Candelaria,Prado
+Heridos,5/09/2018,13:30:00,Choque,CL 73 CR 72 A,F,22,Acompañante de Motocicleta,Sept,Mié,5,13,20 - 29,2018,1641151,"6,273677498","-75,58203844",07 - Robledo,La Pilarica
+Heridos,12/09/2020,14:41:00,Caida Ocupante,CL 94 A CR 63,M,39,Acompañante de motocicleta,Sept,Sáb,12,14,30 - 39,2020,1723110,"6,28734229","-75,56654222",05 - Castilla,Tricentenario
+Heridos,4/10/2018,21:00:00,Choque,CR 43 CL 63,F,48,Motociclista,Oct,Jue,4,21,40 - 49,2018,1644811,"6,256505703","-75,55727135",08 - Villa Hermosa,San Miguel
+Heridos,24/10/2016,08:00:00,Volcamiento,CL 65 CR 88,F,36,Motociclista,Oct,Lun,24,8,30 - 39,2016,1556444,"6,276862337","-75,59775237",07 - Robledo,Robledo
+Heridos,15/07/2016,14:10:00,Choque,CR 49 CL 20,M,37,Acompañante de Motocicleta,Jul,Vie,15,14,30 - 39,2016,1542665,"6,224175454","-75,57511232",14 - El Poblado,Villa Carlota
+Heridos,15/11/2016,18:30:00,Atropello,CR 69 CL 78,M,78,Peatón,Nov,Mar,15,18,70 - 79,2016,1559315,"6,276730396","-75,57814914",05 - Castilla,El Progreso
+Heridos,9/12/2014,19:00:00,Volcamiento,CL 50 CR 57,M,34,Motociclista,Dic,Mar,9,19,30 - 39,2014,1467870,"6,253077335","-75,57499263",10 - La Candelaria,San Benito
+Heridos,1/03/2015,21:20:00,Choque,CR 65 CL 114,F,17,Acompañante de Motocicleta,Mar,Dom,1,21,10 - 19,2015,1477732,"6,309321795","-75,56382218",05 - Castilla,Las Brisas
+Heridos,28/05/2014,13:00:00,Otro,CL 101 CR 48,M,9,Peatón,May,Mié,28,13,0 - 9,2014,1442937,"6,292120227","-75,55448617",02 - Santa Cruz,Moscú No. 1
+Heridos,15/06/2017,22:00:00,Otro,CR 65 CL 97,M,27,Motociclista,Jun,Jue,15,22,20 - 29,2017,1586309,"6,291661959","-75,56952336",05 - Castilla,Castilla
+Heridos,21/09/2016,17:20:00,Choque,CL 53 CR 53,M,47,Motociclista,Sept,Mié,21,17,40 - 49,2016,1552039,"6,253077503","-75,56942689",10 - La Candelaria,Estación Villa
+Heridos,6/09/2014,16:15:00,Atropello,CR 23 CL 57,M,66,Peatón,Sept,Sáb,6,16,60 - 69,2014,1455949,"6,248888807","-75,54331433",08 - Villa Hermosa,Los Mangos
+Heridos,6/09/2018,07:30:00,Caida Ocupante,CR 21 CL 45,M,34,Motociclista,Sept,Jue,6,7,30 - 39,2018,1641180,"6,234807464","-75,5489035",09 - Buenos Aires,Miraflores
+Heridos,29/11/2016,13:15:00,Choque,CR 70 CL 94,M,34,Motociclista,Nov,Mar,29,13,30 - 39,2016,1561361,"6,289097206","-75,57422264",05 - Castilla,Castilla
+Heridos,26/04/2017,10:00:00,Otro,CR 49 CL 26,M,33,Motociclista,Abr,Mié,26,10,30 - 39,2017,1579529,"6,225349961","-75,57668028",15 - Guayabal,Santa Fé
+Heridos,27/09/2014,09:50:00,Atropello,CR 81 CL 33 AA,M,71,Peatón,Sept,Sáb,27,9,70 - 79,2014,1458806,"6,239958503","-75,60293876",11 - Laureles Estadio,La Castellana
+Heridos,28/03/2020,14:30:00,Choque,CR 63 CL 88,Sin Inf,26,Motociclista,Mar,Sáb,28,14,20 - 29,2020,1712720,"6,28058572","-75,56919632",05 - Castilla,Oleoducto
+Heridos,10/01/2016,00:00:00,Otro,CL 58 CR 32,M,23,Motociclista,Ene,Dom,10,0,20 - 29,2016,1518568,"6,249048127","-75,5525646",08 - Villa Hermosa,Enciso
+Heridos,24/03/2016,14:20:00,Atropello,CR 62 CL 44,M,46,Peatón,Mar,Jue,24,14,40 - 49,2016,1528159,"6,247738846","-75,57877945",10 - La Candelaria,Corazón de Jesús
+Heridos,28/11/2014,21:10:00,Choque,CR 49 CL 101,F,46,Acompañante de Motocicleta,Nov,Vie,28,21,40 - 49,2014,1466477,"6,292451673","-75,5556965",02 - Santa Cruz,Moscú No. 1
+Heridos,8/07/2015,08:55:00,Volcamiento,CR 64 C CL 90,M,22,Motociclista,Jul,Mié,8,8,20 - 29,2015,1494436,"6,282132104","-75,57208422",05 - Castilla,Alfonso López
+Heridos,2/03/2017,07:30:00,Choque,CR 64 C CL 67,M,35,Motociclista,Mar,Jue,2,7,30 - 39,2017,1572958,"6,264761335","-75,57498645",05 - Castilla,Caribe
+Heridos,29/06/2015,13:20:00,Caida Ocupante,CL 107 CR 87,M,43,Motociclista,Jun,Lun,29,13,40 - 49,2015,1493394,"6,308972911","-75,58465796",06 - Doce de Octubre,El Triunfo
+Heridos,22/06/2018,11:10:00,Choque,CR 64 C CL 88,M,20,Motociclista,Jun,Vie,22,11,20 - 29,2018,1632068,"6,28084592","-75,57180096",05 - Castilla,Oleoducto
+Heridos,28/03/2018,07:30:00,Choque,CL 47 CR 36,M,49,Motociclista,Mar,Mié,28,7,40 - 49,2018,1621619,"6,241252893","-75,55807828",09 - Buenos Aires,Buenos Aires
+Heridos,27/08/2019,08:00:00,Caida Ocupante,CL 97 CR 34,M,28,Motociclista,Ago,Mar,27,8,20 - 29,2019,1684282,"6,287551322","-75,54436581",01 - Popular,San Pablo
+Heridos,06/11/2019,14:00:00,Choque,CR 41 CL 71 A,M,32,Motociclista,Nov,Mié,06,14,30 - 39,2019,1694366,"6,266385628","-75,55106085",03 - Manrique,Manrique Oriental
+Heridos,31/07/2017,16:40:00,Otro,CL 23 CR 54,M,37,Motociclista,Jul,Lun,31,16,30 - 39,2017,1591808,"6,224621648","-75,58059412",15 - Guayabal,Santa Fé
+Heridos,14/08/2020,19:30:00,Otro,CR 55 CL 57,M,26,Motociclista,Ago,Vie,14,19,20 - 29,2020,1720712,"6,25828233","-75,57051908",10 - La Candelaria,Jesús Nazareno
+Heridos,9/02/2019,09:30:00,Volcamiento,CR 52 CL 30,M,35,Motociclista,Feb,Sáb,9,9,30 - 39,2019,1659540,"6,22761689","-75,57758931",15 - Guayabal,Santa Fé
+Heridos,26/11/2014,09:40:00,Choque,CR 49 CL 7 Sur,M,58,Motociclista,Nov,Mié,26,9,50 - 59,2014,1466109,"6,199839882","-75,57967016",14 - El Poblado,La Aguacatala
+Heridos,8/08/2018,14:00:00,Choque,CR 49 CL 18 Sur,M,25,Motociclista,Ago,Mié,8,14,20 - 29,2018,1637619,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,16/07/2019,06:10:00,Caida Ocupante,CR 55 CL 60,F,40,Motociclista,Jul,Mar,16,6,40 - 49,2019,1678454,"6,259540727","-75,56983644",10 - La Candelaria,Jesús Nazareno
+Heridos,07/11/2020,14:30:00,Otro,CR 49 CL 26,M,38,Motociclista,Nov,Sáb,7,14,30 - 39,2020,1728585,"6,225349961","-75,57668028",15 - Guayabal,Santa Fé
+Heridos,3/04/2018,13:10:00,Caida Ocupante,CL 29 CR 43 A,M,24,Motociclista,Abr,Mar,3,13,20 - 29,2018,1622267,"6,227465733","-75,56885021",10 - La Candelaria,San Diego
+Muertos,07/07/2021,05:35:00,Atropello,CR 63 CL 113 CC,M,30,Peatón,Jul,Mié,7,5,30 - 39,2021,1753348,"6,30830091","-75,55841233",05 - Castilla,Toscana
+Heridos,22/02/2016,04:30:00,Otro,CR 64 C CL 103 DD,F,32,Motociclista,Feb,Lun,22,4,30 - 39,2016,1523912,"6,297649746","-75,56655309",05 - Castilla,Belalcázar
+Heridos,18/09/2021,01:50:00,Choque,CL 44 CR 102,M,35,Motociclista,Sep,Sáb,18,1,30 - 39,2021,1762174,"-75,61757753","6,25698114",13 - San Javier,San Javier No.1
+Heridos,13/04/2014,18:00:00,Atropello,CL 1 CR 1,F,21,Peatón,Abr,Dom,13,18,20 - 29,2014,1437142,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,6/10/2014,17:00:00,Otro,CR 75 CL 53,M,36,Motociclista,Oct,Lun,6,17,30 - 39,2014,1459891,"6,174396743","-75,6522895",80 - Corregimiento de San Antonio de Prado,Cabecera San Antonio de Prado
+Muertos,6/04/2016,14:40:00,Choque,CR 65 CL 72 - 150,M,19,Motociclista,Abr,Mié,6,14,10 - 19,2016,17924,"6,272340956","-75,57501487",05 - Castilla,Caribe
+Heridos,26/06/2020,22:40:00,Choque,CL 46 CR 27,M,24,Motociclista,Jun,Vie,26,22,20 - 29,2020,1717373,"6,23717581","-75,5516753",09 - Buenos Aires,Miraflores
+Heridos,2/12/2020,19:50:00,Otro,CL 48 CR 107,M,13,Acompañante de motocicleta,Dic,Mié,2,19,10 - 19,2020,1731152,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,08/06/2019,13:10:00,Atropello,CR 88 CL 76,M,60,Peatón,Jun,Sáb,8,13,60 - 69,2019,1673824,"6,280227523","-75,5942847",07 - Robledo,Aures No.1
+Heridos,24/12/2017,22:00:00,Atropello,CL 70 A CR 42,M,9,Peatón,Dic,Dom,24,22,0 - 9,2017,1610830,"6,265414709","-75,55160031",03 - Manrique,Manrique Central No. 2
+Heridos,6/10/2015,11:50:00,Atropello,CL 79 CR 43,M,65,Peatón,Oct,Mar,6,11,60 - 69,2015,1506831,"6,271608262","-75,552239",03 - Manrique,Campo Valdés No. 2
+Heridos,20/11/2017,17:40:00,Atropello,CR 51 CL 41,F,64,Peatón,Nov,Lun,20,17,60 - 69,2017,1606593,"6,2420113","-75,57165771",10 - La Candelaria,Calle Nueva
+Heridos,18/10/2019,11:00:00,Caida Ocupante,CL 49 CR 99 B,F,22,Motociclista,Oct,Vie,18,11,20 - 29,2019,1691876,"6,263502969","-75,61300689",13 - San Javier,Juan XXIII La Quiebra
+Heridos,21/05/2015,06:40:00,Otro,CR 65 CL 97,F,26,Motociclista,May,Jue,21,6,20 - 29,2015,1488505,"6,291661959","-75,56952336",05 - Castilla,Castilla
+Heridos,13/01/2020,19:10:00,Choque,CL 62 CR 96 A,M,28,Motociclista,Ene,Lun,13,19,20 - 29,2020,1704536,"6,27676431","-75,60734552",07 - Robledo,Fuente Clara
+Heridos,5/02/2019,18:20:00,Choque,CR 90 CL 39,M,19,Motociclista,Feb,Mar,5,18,10 - 19,2019,1659128,"6,249931936","-75,61026793",12 - La América,Santa Mónica
+Heridos,8/04/2018,09:40:00,Choque,CL 31 CR 88,M,23,Motociclista,Abr,Dom,8,9,20 - 29,2018,1622917,"6,232927839","-75,61260173",16 - Belén,Las Violetas
+Heridos,24/05/2021,00:02:00,Caida Ocupante,CL 65 CR 80,F,20,Motociclista,May,Lun,24,0,20 - 29,2021,1748142,"6,27334954","-75,59311403",07 - Robledo,Robledo
+Heridos,4/04/2016,01:30:00,Choque,CR 51 CL 59,F,22,Acompañante de Motocicleta,Abr,Lun,4,1,20 - 29,2016,1529283,"6,257687622","-75,5657881",10 - La Candelaria,Prado
+Heridos,22/03/2014,08:40:00,Atropello,CL 51 CR 36,M,25,Motociclista,Mar,Sáb,22,8,20 - 29,2014,1434176,"6,244806406","-75,55614354",09 - Buenos Aires,Barrio Caicedo
+Heridos,12/07/2019,14:10:00,Choque,CL 120 CR 50 B,M,40,Conductor,Jul,Vie,12,14,40 - 49,2019,1678121,"6,304823111","-75,55339316",02 - Santa Cruz,La Frontera
+Heridos,26/09/2017,07:15:00,Volcamiento,CL 44 CR 72,M,25,Motociclista,Sept,Mar,26,7,20 - 29,2017,1599614,"6,249567259","-75,59122957",11 - Laureles Estadio,Florida Nueva
+Heridos,12/07/2018,01:30:00,Otro,CR 68 CL 94,M,26,Motociclista,Jul,Jue,12,1,20 - 29,2018,1634237,"6,288635713","-75,57284967",05 - Castilla,Castilla
+Heridos,3/03/2019,02:00:00,Choque,CL 55 CR 37,M,27,Acompañante de Motocicleta,Mar,Dom,3,2,20 - 29,2019,1662757,"6,2478625","-75,55654189",10 - La Candelaria,Boston
+Heridos,1/02/2019,09:00:00,Otro,CR 45 CL 78,M,32,Motociclista,Feb,Vie,1,9,30 - 39,2019,1658585,"6,252158573","-75,60491193",03 - Manrique,Campo Valdés No. 2
+Heridos,7/05/2014,13:30:00,Caida Ocupante,CL 50 CR 66,F,70,Pasajero,May,Mié,7,13,70 - 79,2014,1440198,"6,256616587","-75,58210049",11 - Laureles Estadio,Carlos E. Restrepo
+Heridos,15/04/2019,12:10:00,Choque,CR 38 CL 46,F,51,Pasajero,Abr,Lun,15,12,50 - 59,2019,1667393,"6,24204604","-75,56077687",10 - La Candelaria,Bomboná No. 1
+Heridos,11/08/2021,14:10:00,Volcamiento,CR 50 CL 3,F,17,Motociclista,Ago,Mié,11,14,10 - 19,2021,1757759,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,11/05/2020,11:00:00,Caida Ocupante,CR 39 C CL 109,F,22,Motociclista,May,Lun,11,11,20 - 29,2020,1714117,"6,29770801","-75,54626899",01 - Popular,Santo Domingo Savio No. 1
+Heridos,26/01/2019,07:54:00,Otro,CR 49 CL 18,M,35,Motociclista,Ene,Sáb,26,7,30 - 39,2019,1657824,"6,220039391","-75,57675421",14 - El Poblado,Villa Carlota
+Heridos,25/02/2018,10:30:00,Choque,CL 30 A CR 83,M,19,Motociclista,Feb,Dom,25,10,10 - 19,2018,1617787,"6,231885915","-75,60628737",16 - Belén,Los Alpes
+Heridos,16/08/2015,14:00:00,Volcamiento,CL 80 CR 87,F,9,Acompañante de Motocicleta,Ago,Dom,16,14,0 - 9,2015,1499861,"6,286726678","-75,58713063",07 - Robledo,El Diamante
+Heridos,25/08/2018,09:50:00,Choque,CR 52 CL 3,M,54,Motociclista,Ago,Sáb,25,9,50 - 59,2018,1639614,"6,210107369","-75,58464304",15 - Guayabal,Campo Amor
+Heridos,26/02/2018,17:00:00,Caida Ocupante,CL 18 CR 104,F,43,Acompañante de Motocicleta,Feb,Lun,26,17,40 - 49,2018,1617984,"6,223359302","-75,62500117",70 - Corregimiento de Altavista,Suburbano Altavista
+Heridos,7/03/2017,16:40:00,Choque,CR 51 CL 52,M,31,Motociclista,Mar,Mar,7,16,30 - 39,2017,1573695,"6,251300155","-75,56798083",10 - La Candelaria,La Candelaria
+Heridos,7/03/2014,06:30:00,Caida Ocupante,CR 52 CL 81,M,23,Motociclista,Mar,Vie,7,6,20 - 29,2014,1432052,"6,275508835","-75,56434501",04 - Aranjuez,Miranda
+Heridos,26/07/2020,12:40:00,Choque,CR 84 C CL 15 A,M,21,Motociclista,Jul,Dom,26,12,20 - 29,2020,1719424,"6,22141647","-75,60770028",16 - Belén,La Gloria
+Heridos,31/10/2018,16:15:00,Choque,CL 50 B CR 83,F,27,Motociclista,Oct,Mié,31,16,20 - 29,2018,1648330,"6,176569814","-75,65988747",80 - Corregimiento de San Antonio de Prado,Área de Expansión San Antonio de Prado
+Heridos,30/07/2021,23:00:00,Choque,CR 84 CL 42 C,F,25,Acompañante de motocicleta,Jul,Vie,30,23,20 - 29,2021,1756605,"6,24950367","-75,60488312",12 - La América,La América
+Heridos,6/04/2016,16:30:00,Atropello,CR 47 CL 52 A,M,35,Peatón,Abr,Mié,6,16,30 - 39,2016,1529579,"6,249573252","-75,5655476",10 - La Candelaria,La Candelaria
+Heridos,03/08/2019,21:30:00,Otro,CL 10 CR 43 A,F,24,Motociclista,Ago,Sáb,3,21,20 - 29,2019,1680904,"6,210632603","-75,57042882",14 - El Poblado,Manila
+Heridos,08/04/2021,07:20:00,Caida Ocupante,CL 103 CR 42 B,M,24,Motociclista,Abr,Jue,8,7,20 - 29,2021,1743827,"6,29238823","-75,5488211",01 - Popular,Granizal
+Heridos,8/03/2018,07:00:00,Caida Ocupante,CL 64 F CR 91 B,M,26,Motociclista,Mar,Jue,8,7,20 - 29,2018,1619268,"6,27975835","-75,60066431",07 - Robledo,Cucaracho
+Heridos,3/08/2018,07:45:00,Choque,CR 43 A CL 16,M,34,Motociclista,Ago,Vie,3,7,30 - 39,2018,1637011,"6,216691723","-75,56991079",14 - El Poblado,Castropol
+Heridos,24/06/2015,14:00:00,Choque,CR 62 CL 58,M,26,Acompañante de Motocicleta,Jun,Mié,24,14,20 - 29,2015,1492807,"6,260362813","-75,57330223",10 - La Candelaria,El Chagualo
+Heridos,13/10/2015,14:50:00,Choque,CR 80 CL 55,F,9,Acompañante de Motocicleta,Oct,Mar,13,14,0 - 9,2015,1507752,"6,269472987","-75,59529962",11 - Laureles Estadio,Los Colores
+Heridos,27/03/2017,19:55:00,Caida Ocupante,CR 80 CL 55,M,25,Acompañante de Motocicleta,Mar,Lun,27,19,20 - 29,2017,1575940,"6,269472987","-75,59529962",11 - Laureles Estadio,Los Colores
+Heridos,18/02/2017,13:45:00,Atropello,CL 30 A CR 69,M,35,Peatón,Feb,Sáb,18,13,30 - 39,2017,1571079,"6,232417024","-75,589175",16 - Belén,Rosales
+Heridos,12/05/2014,12:30:00,Atropello,CR 80 CL 39,F,58,Peatón,May,Lun,12,12,50 - 59,2014,1440786,"6,249212516","-75,59899801",11 - Laureles Estadio,Lorena
+Heridos,27/02/2018,06:30:00,Choque,CL 54 CR 86 A,F,14,Pasajero,Feb,Mar,27,6,10 - 19,2018,1618266,"6,271214744","-75,60201135",60 - Corregimiento de San Cristóbal,Área de Expansión Altos de Calasanz
+Heridos,28/10/2019,17:15:00,Choque,CL 78 CR 64,F,27,Motociclista,Oct,Lun,28,17,20 - 29,2019,1693030,"6,275766505","-75,56940285",04 - Aranjuez,Moravia
+Heridos,29/03/2020,20:00:00,Otro,CL 44 CR 88,M,31,Motociclista,Mar,Dom,29,20,30 - 39,2020,1712738,"6,25135918","-75,60619391",12 - La América,12Sin Inf4
+Heridos,20/08/2014,13:40:00,Atropello,CR 51 CL 99,F,76,Peatón,Ago,Mié,20,13,70 - 79,2014,1453898,"6,291947272","-75,55984813",02 - Santa Cruz,Santa Cruz
+Heridos,1/04/2016,14:00:00,Caida Ocupante,CL 35 CR 90,M,24,Motociclista,Abr,Vie,1,14,20 - 29,2016,1528982,"6,245197561","-75,61375851",12 - La América,Santa Mónica
+Heridos,13/07/2018,08:00:00,Choque,CL 33 CR 82 A,M,62,Acompañante de Motocicleta,Jul,Vie,13,8,60 - 69,2018,1634304,"6,238690843","-75,60540672",11 - Laureles Estadio,La Castellana
+Heridos,23/01/2017,17:30:00,Otro,CR 43 CL 52,M,50,Motociclista,Ene,Lun,23,17,50 - 59,2017,1567708,"6,248442915","-75,56228276",10 - La Candelaria,Boston
+Heridos,29/04/2016,17:30:00,Choque,CL 29 CR 35,M,29,Motociclista,Abr,Vie,29,17,20 - 29,2016,1532776,"6,227133417","-75,56324074",09 - Buenos Aires,Asomadera No. 1
+Heridos,20/02/2016,07:30:00,Otro,CR 65 CL 14,M,21,Motociclista,Feb,Sáb,20,7,20 - 29,2016,1523717,"6,218561389","-75,58501121",15 - Guayabal,Santa Fé
+Heridos,20/07/2014,11:40:00,Caida Ocupante,CR 80 CL 95,F,24,Motociclista,Jul,Dom,20,11,20 - 29,2014,1449730,"6,293494335","-75,58336626",06 - Doce de Octubre,Picacho
+Heridos,6/09/2016,06:40:00,Caida Ocupante,CL 63 CR 91,M,23,Motociclista,Sept,Mar,6,6,20 - 29,2016,1549842,"6,278079415","-75,60110302",07 - Robledo,Cucaracho
+Heridos,17/02/2017,18:30:00,Choque,CL 32 CR 48,M,50,Motociclista,Feb,Vie,17,18,50 - 59,2017,1571048,"6,23341088","-75,57354066",10 - La Candelaria,Perpetuo Socorro
+Heridos,8/09/2018,14:50:00,Otro,CL 120 CR 64 AA,M,47,Motociclista,Sept,Sáb,8,14,40 - 49,2018,1641416,"6,31143379","-75,55859808",05 - Castilla,Las Brisas
+Heridos,30/08/2017,13:40:00,Choque,CL 32 C CR 82,M,24,Motociclista,Ago,Mié,30,13,20 - 29,2017,1596085,"6,233817713","-75,6035371",16 - Belén,Belén
+Heridos,16/12/2017,13:30:00,Choque,CR 47 CL 78,M,33,Motociclista,Dic,Sáb,16,13,30 - 39,2017,1609683,"6,271401225","-75,55615041",04 - Aranjuez,Campo Valdés No. 1
+Heridos,17/02/2017,09:50:00,Choque,CR 71 CL 47,M,22,Motociclista,Feb,Vie,17,9,20 - 29,2017,1571044,"6,252598164","-75,58946033",11 - Laureles Estadio,Florida Nueva
+Heridos,5/08/2018,00:05:00,Choque,CR 37 CL 66 E,F,26,Motociclista,Ago,Dom,5,0,20 - 29,2018,1636967,"6,25921323","-75,54887322",08 - Villa Hermosa,Villa Hermosa
+Heridos,30/11/2020,18:00:00,Otro,CL 67 CR 64,M,40,Motociclista,Nov,Lun,30,18,40 - 49,2020,1730712,"6,265319895","-75,57263989",05 - Castilla,Caribe
+Heridos,06/05/2021,21:15:00,Volcamiento,CR 25 CL 1,F,28,Motociclista,May,Jue,6,21,20 - 29,2021,1746369,"6,1976751","-75,55692461",14 - El Poblado,Los Naranjos
+Heridos,9/05/2017,15:15:00,Choque,CR 99 CL 47 A,M,21,Pasajero,May,Mar,9,15,20 - 29,2017,1581459,"6,257579788","-75,61439288",13 - San Javier,San Javier No.2
+Heridos,01/03/2020,19:30:00,Caida Ocupante,CL 14 CR 70,M,30,Motociclista,Mar,Dom,1,19,30 - 39,2020,1710126,"6,2204636","-75,59249044",16 - Belén,Las Playas
+Heridos,11/08/2021,17:05:00,Choque,DG 25 CR 25,F,21,Motociclista,Ago,Mié,11,17,20 - 29,2021,1758102,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,19/10/2018,06:30:00,Atropello,CR 70 CL 49 B,F,24,Peatón,Oct,Vie,19,6,20 - 29,2018,1646595,"6,257950015","-75,58638635",11 - Laureles Estadio,Suramericana
+Heridos,1/12/2016,22:00:00,Atropello,CL 87 CR 50 AA,F,61,Peatón,Dic,Jue,1,22,60 - 69,2016,1561701,"6,279776897","-75,55894801",04 - Aranjuez,Aranjuez
+Heridos,20/08/2018,16:40:00,Choque,CL 33 CR 84,M,54,Conductor,Ago,Lun,20,16,50 - 59,2018,1639090,"6,239253165","-75,60982131",16 - Belén,Las Mercedes
+Heridos,27/05/2014,09:10:00,Choque,CL 80 CR 92,F,35,Pasajero,May,Mar,27,9,30 - 39,2014,1442765,"6,289593007","-75,59182852",07 - Robledo,Aures No. 2
+Heridos,11/02/2016,12:30:00,Otro,CL 49 B CR 69,M,24,Motociclista,Feb,Jue,11,12,20 - 29,2016,1522589,"6,257626014","-75,58551909",11 - Laureles Estadio,Suramericana
+Heridos,21/03/2014,22:50:00,Otro,CR 32 CL 85,M,20,Motociclista,Mar,Vie,21,22,20 - 29,2014,1434086,"6,274994245","-75,54525927",03 - Manrique,Las Granjas
+Heridos,01/04/2020,05:42:00,Choque,CR 63 CL 33,M,23,Motociclista,Abr,Mié,1,5,20 - 29,2020,1712821,"6,23970353","-75,57790331",11 - Laureles Estadio,Los Conquistadores
+Heridos,31/10/2014,22:00:00,Atropello,CR 45 CL 85,M,17,Peatón,Oct,Vie,31,22,10 - 19,2014,1462961,"6,277078402","-75,55325429",03 - Manrique,Las Granjas
+Heridos,7/10/2015,15:30:00,Choque,CR 52 CL 41,M,46,Motociclista,Oct,Mié,7,15,40 - 49,2015,1506963,"6,242253483","-75,57246384",10 - La Candelaria,Calle Nueva
+Heridos,13/12/2018,09:50:00,Choque,CR 63 CL 58,M,20,Motociclista,Dic,Jue,13,9,20 - 29,2018,1653338,"6,261056108","-75,57425577",07 - Robledo,Universidad Nacional
+Heridos,24/08/2015,07:30:00,Otro,CL 55 CR 70,M,26,Motociclista,Ago,Lun,24,7,20 - 29,2015,1500806,"6,261167381","-75,58467748",07 - Robledo,Nueva Villa de la Iguaná
+Heridos,3/01/2016,17:00:00,Volcamiento,CL 98 CR 67,F,39,Motociclista,Ene,Dom,3,17,30 - 39,2016,1517931,"6,293507288","-75,57052546",05 - Castilla,Castilla
+Heridos,24/01/2015,22:10:00,Volcamiento,CR 50 CL 9 Sur,M,23,Motociclista,Ene,Sáb,24,22,20 - 29,2015,1473168,"6,200266396","-75,58024145",15 - Guayabal,Guayabal
+Heridos,11/09/2019,06:00:00,Choque,CR 69 CL 78 B,M,50,Motociclista,Sept,Mié,11,6,50 - 59,2019,1686422,"6,275917435","-75,5788394",05 - Castilla,El Progreso
+Heridos,5/04/2016,05:20:00,Choque,CR 65 CL 67,M,23,Motociclista,Abr,Mar,5,5,20 - 29,2016,1529490,"6,268025089","-75,57675703",05 - Castilla,Caribe
+Heridos,10/08/2018,08:10:00,Atropello,CL 58 CR 104,M,29,Peatón,Ago,Vie,10,8,20 - 29,2018,1637863,"6,273320045","-75,61453946",07 - Robledo,Olaya Herrera
+Heridos,31/08/2019,14:10:00,Choque,CR 52 CL 32,M,70,Conductor,Ago,Sáb,31,14,70 - 79,2019,1684830,"6,234802361","-75,57510969",10 - La Candelaria,Perpetuo Socorro
+Heridos,13/02/2014,08:10:00,Otro,CR 26 CL 29,F,Sin Inf,Motociclista,Feb,Jue,13,8,Sin Inf,2014,1428996,"6,262195515","-75,54191876",03 - Manrique,Versalles No. 1
+Heridos,13/02/2020,19:30:00,Choque,CL 55 CR 41,M,43,Motociclista,Feb,Jue,13,19,40 - 49,2020,1708012,"6,24979297","-75,55958594",10 - La Candelaria,Boston
+Heridos,17/01/2021,11:30:00,Caida Ocupante,CR 57 CL 54,M,43,Motociclista,Ene,Dom,17,11,40 - 49,2021,1735432,"6,25562289","-75,57354683",10 - La Candelaria,San Benito
+Heridos,28/09/2019,20:00:00,Otro,CR 37 CL 75,M,19,Motociclista,Sept,Sáb,28,20,10 - 19,2019,1688913,"6,268708855","-75,54841014",03 - Manrique,El Raizal
+Heridos,31/05/2021,06:20:00,Otro,CL 110 A CR 77 D,M,25,Motociclista,May,Lun,31,6,20 - 29,2021,1749060,"6,30824712","-75,57414398",06 - Doce de Octubre,Santander
+Heridos,18/07/2014,22:10:00,Atropello,CL 68 CR 39 A,M,11,Peatón,Jul,Vie,18,22,10 - 19,2014,1449593,"6,263165683","-75,55053384",03 - Manrique,Manrique Oriental
+Heridos,10/05/2015,03:15:00,Choque,CR 65 CL 97,M,32,Motociclista,May,Dom,10,3,30 - 39,2015,1486866,"6,291661959","-75,56952336",05 - Castilla,Castilla
+Heridos,17/04/2014,06:05:00,Otro,CR 65 CL 78,M,48,Motociclista,Abr,Jue,17,6,40 - 49,2014,1437798,"6,275445479","-75,5736223",05 - Castilla,Terminal de Transporte
+Heridos,18/08/2021,01:00:00,Otro,CR 83 CL 102,M,32,Motociclista,Ago,Mié,18,1,30 - 39,2021,1758352,"6,30381475","-75,58213926",06 - Doce de Octubre,Doce de Octubre No.2
+Heridos,17/06/2017,15:30:00,Choque,CR 65 CL 74,F,29,Acompañante de Motocicleta,Jun,Sáb,17,15,20 - 29,2017,1586416,"6,272919371","-75,57475838",05 - Castilla,Caribe
+Heridos,17/01/2016,03:00:00,Choque,CR 23 CL 56 EA,M,32,Motociclista,Ene,Dom,17,3,30 - 39,2016,1519318,"6,244055189","-75,54042312",08 - Villa Hermosa,Trece de Noviembre
+Heridos,20/10/2017,15:30:00,Caida Ocupante,CR 999 CL 999,M,48,Motociclista,Oct,Vie,20,15,40 - 49,2017,1602614,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,08/03/2020,16:30:00,Atropello,CR 51 CL 59,F,44,Peatón,Mar,Dom,8,16,40 - 49,2020,1710820,"6,25752356","-75,56578589",10 - La Candelaria,Prado
+Heridos,1/01/2014,02:20:00,Choque,CR 80 CL 8,M,Sin Inf,Motociclista,Ene,Mié,1,2,Sin Inf,2014,1423828,"6,219015515","-75,60272577",16 - Belén,Loma de los Bernal
+Heridos,11/07/2021,20:32:00,Choque,CR 88 CL 77,M,24,Acompañante de motocicleta,Jul,Dom,11,20,20 - 29,2021,1753526,"6,22178433","-75,7039017",Sin Inf,Sin Inf
+Heridos,26/02/2016,20:20:00,Atropello,CL 99 CR 99,M,5,Peatón,Feb,Vie,26,20,0 - 9,2016,1524674,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Muertos,20/06/2015,12:00:00,Choque,CR 64 A CL 113 64,F,30,Motociclista,Jun,Sáb,20,12,30 - 39,2015,30471,"6,307884814","-75,56387604",05 - Castilla,Sin Inf
+Heridos,15/10/2019,11:00:00,Caida Ocupante,CL 999 CR 999,M,34,Motociclista,Oct,Mar,15,11,30 - 39,2019,1691330,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,4/03/2018,09:30:00,Atropello,CR 999 CL 999,M,16,Motociclista,Mar,Dom,4,9,10 - 19,2018,1618631,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,26/06/2016,05:30:00,Caida Ocupante,CR 76 CL 44 Sur,M,18,Motociclista,Jun,Dom,26,5,10 - 19,2016,1540171,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,14/12/2019,12:14:00,Otro,CQ 40 CR 21,F,35,Conductor,Dic,Sáb,14,12,30 - 39,2019,1699800,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,21/12/2019,22:50:00,Choque,CL 34 B CR 113 A,M,50,Motociclista,Dic,Sáb,21,22,50 - 59,2019,1700962,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,5/04/2018,12:30:00,Choque,CR 107 D CL 48 B,F,42,Motociclista,Abr,Jue,5,12,40 - 49,2018,1622507,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,11/06/2019,16:05:00,Otro,CR 49 CL 16,Sin Inf,49,Motociclista,Jun,Mar,11,16,40 - 49,2019,1674102,"6,217267067","-75,57712719",14 - El Poblado,Villa Carlota
+Heridos,2/01/2019,16:00:00,Caida Ocupante,CR 62 CL 77,M,37,Acompañante de Motocicleta,Ene,Mié,2,16,30 - 39,2019,1655413,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,27/07/2020,05:00:00,Choque,CL 67 CR 65,M,120,Pasajero,Jul,Lun,27,5,Sin Inf,2020,1719498,"6,26510698","-75,57120847",04 - Aranjuez,Universidad de Antioquia
+Heridos,16/09/2015,07:50:00,Choque,CL 9 Sur CR 79 C,M,38,Motociclista,Sept,Mié,16,7,30 - 39,2015,1504075,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,4/11/2016,21:00:00,Caida Ocupante,CL 57 CR 90,M,19,Motociclista,Nov,Vie,4,21,10 - 19,2016,1558170,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,18/08/2019,19:30:00,Atropello,CR 62 CL 97,M,22,Motociclista,Ago,Dom,18,19,20 - 29,2019,1683127,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,23/07/2019,06:10:00,Caida Ocupante,CR 79 CL 6,M,25,Acompañante de Motocicleta,Jul,Mar,23,6,20 - 29,2019,1679457,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,17/03/2014,05:15:00,Caida Ocupante,Tramo 8 Kilometro 2,M,45,Motociclista,Mar,Lun,17,5,40 - 49,2014,1433347,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,10/06/2019,16:30:00,Caida Ocupante,Tramo 18 Kilometro 0,F,23,Acompañante de Motocicleta,Jun,Lun,10,16,20 - 29,2019,1673995,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,6/08/2017,12:00:00,Choque,CL 16 A Sur CR 34,M,20,Motociclista,Ago,Dom,6,12,20 - 29,2017,1592748,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,13/07/2021,09:00:00,Choque,CR 80 CL 80,M,27,Motociclista,Jul,Mar,13,9,20 - 29,2021,1753989,"6,22178433","-75,7039017",Sin Inf,Sin Inf
+Heridos,20/06/2020,16:00:00,Otro,CR 48 CL 17 Sur,M,48,Acompañante de motocicleta,Jun,Sáb,20,16,40 - 49,2020,1716780,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,30/09/2014,20:15:00,Caida Ocupante,CR 52 CL 109,Sin Inf,33,Motociclista,Sept,Mar,30,20,30 - 39,2014,1459188,"6,300661696","-75,5567589",02 - Santa Cruz,La Francia
+Heridos,19/12/2017,21:00:00,Caida Ocupante,CR 63 CL 78,F,25,Acompañante de Motocicleta,Dic,Mar,19,21,20 - 29,2017,1610155,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,14/07/2021,05:30:00,Choque,Tramo 18 Kilometro 36,M,28,Motociclista,Jul,Mié,14,5,20 - 29,2021,1753949,"6,22178433","-75,7039017",Sin Inf,Sin Inf
+Heridos,23/06/2019,12:50:00,Atropello,CR 80 CL 72 C,M,69,Peatón,Jun,Dom,23,12,60 - 69,2019,1675524,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,31/01/2019,06:15:00,Choque,CR 64 C CL 78,M,50,Motociclista,Ene,Jue,31,6,50 - 59,2019,1658690,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,31/07/2018,07:20:00,Choque,CR 52 CL 30,Sin Inf,20,Motociclista,Jul,Mar,31,7,20 - 29,2018,1636637,"6,227652552","-75,57759502",15 - Guayabal,Santa Fé
+Heridos,02/07/2021,15:00:00,Caida Ocupante,CR 64 AA CL 114 A,M,41,Motociclista,Jul,Vie,2,15,40 - 49,2021,1752844,"6,22178433","-75,7039017",Sin Inf,Sin Inf
+Heridos,23/06/2021,18:40:00,Choque,CR 57 CL 49,Sin Inf,24,Motociclista,Jun,Mié,23,18,20 - 29,2021,1751590,"6,23913769","-75,59342844",16 - Belén,El Nogal-Los Almendros
+Heridos,30/10/2016,19:00:00,Choque,Tramo 15,M,16,Ciclista,Oct,Dom,30,19,10 - 19,2016,1557624,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,12/07/2016,09:30:00,Otro,CR 70 CL 5,M,23,Motociclista,Jul,Mar,12,9,20 - 29,2016,1542192,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,09/10/2020,22:20:00,Volcamiento,CR 46 CL 75 Sur,F,31,Acompañante de motocicleta,Oct,Vie,9,22,30 - 39,2020,1725948,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,3/07/2016,18:00:00,Choque,CR 999 CL 20,M,33,Motociclista,Jul,Dom,3,18,30 - 39,2016,1540984,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,24/12/2014,20:30:00,Otro,CL 63 CR 115,M,33,Motociclista,Dic,Mié,24,20,30 - 39,2014,1469762,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,18/03/2016,12:30:00,Otro,CL 99 CR 99,M,19,Motociclista,Mar,Vie,18,12,10 - 19,2016,1527449,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,8/04/2017,20:30:00,Otro,CL 48 D CR 110 D,M,17,Pasajero,Abr,Sáb,8,20,10 - 19,2017,1577624,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,11/03/2016,23:00:00,Volcamiento,CR 999 CL 999,M,19,Motociclista,Mar,Vie,11,23,10 - 19,2016,1526493,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Heridos,27/07/2021,20:30:00,Atropello,CR 65 CL 78,Sin Inf,60,Motociclista,Jul,Mar,27,20,60 - 69,2021,1756397,"6,27632151","-75,57343707",05 - Castilla,Terminal de Transporte
+Heridos,31/05/2018,07:40:00,Choque,CR 85 C CL 76,M,45,Motociclista,May,Jue,31,7,40 - 49,2018,1629351,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Heridos,09/09/2021,11:35:00,Atropello,CR 35 CL 56,F,80,Peatón,Sep,Jue,9,11,80 o más,2021,1761295,"-75,55394221","6,24715478",08 - Villa Hermosa,Sucre
+Heridos,18/09/2021,22:10:00,Otro,CR 32 CL 16,M,20,Motociclista,Sep,Sáb,18,22,20 - 29,2021,1762710,"-75,56190831","6,21536459",09 - Buenos Aires,Asomadera No. 2
+Heridos,12/09/2021,04:00:00,Otro,CL 42 CR 103,F,24,Motociclista,Sep,Dom,12,4,20 - 29,2021,1761338,"-75,61809238","6,25587612",13 - San Javier,San Javier No.1
+Heridos,11/09/2021,15:40:00,Choque,CL 93 CR 46 A,F,13,Acompañante de motocicleta,Sep,Sáb,11,15,10 - 19,2021,1761314,"-75,55424331","6,28443524",04 - Aranjuez,Berlin
+Heridos,13/09/2021,11:56:00,Choque,CL 67 CR 48,F,52,Pasajero,Sep,Lun,13,11,50 - 59,2021,1761769,"-75,55774336","6,2629982",10 - La Candelaria,Prado
+Heridos,24/09/2021,07:00:00,Choque,CL 44 CR 80,M,23,Motociclista,Sep,Vie,24,7,20 - 29,2021,1763270,"-75,59968657","6,24986294",12 - La América,Los Pinos
+Heridos,27/09/2021,07:15:00,Otro,CR 50 CL 30,M,29,Motociclista,Sep,Lun,27,7,20 - 29,2021,1763582,"-75,5744272","6,23187756",10 - La Candelaria,Perpetuo Socorro
+Heridos,04/09/2021,23:50:00,Choque,CR 39 CL 49,M,,Motociclista,Sep,Sáb,4,23,Sin Inf,2021,1760853,"-75,56007522","6,24457517",10 - La Candelaria,Boston
+Heridos,24/09/2021,19:35:00,Choque,CR 51 CL 64,M,21,Acompañante de motocicleta,Sep,Vie,24,19,20 - 29,2021,1762882,"-75,56414504","6,26146367",10 - La Candelaria,Prado
+Heridos,03/09/2021,19:30:00,Otro,CR 46 CL 48,M,42,Motociclista,Sep,Vie,3,19,40 - 49,2021,1760650,"-75,56630056","6,2467504",10 - La Candelaria,La Candelaria
+Heridos,24/10/2020,06:00:00,Caida Ocupante,CR 49 CL 44 A,F,25,Acompañante de motocicleta,Oct,Sáb,24,6,20 - 29,2020,1727536,"6,24488481","-75,56954702",10 - La Candelaria,Barrio Colón
+Heridos,07/03/2020,05:00:00,Caida Ocupante,CL 49 CR 25,M,21,Acompañante de motocicleta,Mar,Sáb,7,5,20 - 29,2020,1710978,"6,23871306","-75,54870718",09 - Buenos Aires,Alejandro Echavarría
+Heridos,03/02/2020,19:30:00,Caida Ocupante,CL 67 CR 58,F,21,Acompañante de motocicleta,Feb,Lun,3,19,20 - 29,2020,1706189,"6,26485177","-75,57003712",10 - La Candelaria,El Chagualo
+Heridos,28/09/2021,11:40:00,Choque,CL 71 AA CR 39,M,21,Acompañante de motocicleta,Sep,Mar,28,11,20 - 29,2021,1763603,"-75,55042753","6,26692403",03 - Manrique,El Pomar
+Heridos,28/05/2020,14:40:00,Choque,CR 83 B CL 34,F,16,Acompañante de motocicleta,May,Jue,28,14,10 - 19,2020,1715244,"6,24223423","-75,60675198",11 - Laureles Estadio,La Castellana
+Heridos,15/03/2021,06:30:00,Atropello,CR 70 CL 113,F,53,Acompañante de motocicleta,Mar,Lun,15,6,50 - 59,2021,1741605,"6,30888094","-75,56782541",05 - Castilla,Florencia
+Heridos,02/03/2020,16:20:00,Choque,CL 99 CR 99,M,39,Acompañante de motocicleta,Mar,Lun,2,16,30 - 39,2020,1710014,"6,29014303","-75,61149349",60 - Corregimiento de San Cristóbal,Área de Expansión Pajarito
+Heridos,28/11/2020,19:30:00,Caida Ocupante,CR 65 CL 97,M,38,Acompañante de motocicleta,Nov,Sáb,28,19,30 - 39,2020,1730481,"6,291661959","-75,56952336",05 - Castilla,Castilla
+Heridos,19/02/2021,19:00:00,Otro,CL 52 CR 23,F,45,Acompañante de motocicleta,Feb,Vie,19,19,40 - 49,2021,1738957,"6,24045922","-75,5458162",08 - Villa Hermosa,El Pinal
+Heridos,28/02/2020,21:00:00,Choque,CR 117 CL 63,F,17,Acompañante de motocicleta,Feb,Vie,28,21,10 - 19,2020,1709664,"6,27827877","-75,62319768",60 - Corregimiento de San Cristóbal,Pedregal Bajo
+Muertos,13/02/2021,05:30:00,Atropello,CL 58 CR 57,M,51,Peatón,Feb,Sáb,13,5,50 - 59,2021,1738380,"6,2591325","-75,57233555",10 - La Candelaria,El Chagualo
+Muertos,17/10/2020,05:15:00,Caida Ocupante,CL 47 Sur CR 55,M,27,Motociclista,Oct,Sáb,17,5,20 - 29,2020,1726347,"6,17943704","-75,63812359",80 - Corregimiento de San Antonio de Prado,Cabecera San Antonio de Prado
+Muertos,04/11/2020,08:00:00,Atropello,CL 10 CR 43 E,M,90,Peatón,Nov,Mié,4,8,80 o más,2020,1728359,"6,211759276","-75,57342341",14 - El Poblado,Manila
+Muertos,17/10/2020,14:10:00,Atropello,CR 44 CL 42 - 21,M,67,Peatón,Oct,Sáb,17,14,60 - 69,2020,1726471,Sin Inf,Sin Inf,Sin Inf,Sin Inf
+Muertos,19/12/2020,07:39:00,Choque,CR 65 CL 25,M,28,Motociclista,Dic,Sáb,19,7,20 - 29,2020,1732944,"6,22663047","-75,58350141",15 - Guayabal,Trinidad
+Muertos,12/08/2019,06:23:00,Choque,CL 57 CR 30,M,21,Motociclista,Ago,Lun,12,6,20 - 29,2019,1682763,"6,246840694","-75,54937355",08 - Villa Hermosa,Sucre
+Muertos,26/11/2015,11:36:00,Atropello,CR 32 CL 75D 39,F,67,Peatón,Nov,Jue,26,11,60 - 69,2015,59858,"6,268754046","-75,54487679",03 - Manrique,El Raizal
+Muertos,17/01/2014,05:45:00,Choque,CR 50 CL 29 C,F,51,Motociclista,Ene,Vie,17,5,50 - 59,2014,02507,"6,231921356","-75,57439481",10 - La Candelaria,Perpetuo Socorro
+Muertos,31/08/2015,18:00:00,Atropello,CR 62 CL 55 C - 68,M,40,Peatón,Ago,Lun,31,18,40 - 49,2015,05001600129220500251,"6,174669076","-75,64337038",80 - Corregimiento de San Antonio de Prado,Cabecera San Antonio de Prado
+Muertos,5/07/2014,05:45:00,Choque,CR 36 CL 51,M,31,Motociclista,Jul,Sáb,5,5,30 - 39,2014,32427,"6,245846149","-75,55599175",09 - Buenos Aires,Barrio Caicedo
+Muertos,6/01/2014,14:00:00,Choque,CL 47 CL 47,M,63,Peatón,Ene,Lun,6,14,60 - 69,2014,00535,"6,246221401","-75,56686208",10 - La Candelaria,Barrio Colón
+Muertos,18/06/2018,07:10:00,Choque,CL 27 CR 77 - 27,M,24,Motociclista,Jun,Lun,18,7,20 - 29,2018,18422,"6,228939086","-75,59712251",16 - Belén,San Bernardo
+Muertos,2/08/2015,05:30:00,Choque,DG 75B CL 1 80,M,25,Motociclista,Ago,Dom,2,5,20 - 29,2015,37727,"6,212075423","-75,59543705",16 - Belén,Diego Echavarría
+Muertos,01/07/2019,01:30:00,Choque,CR 44 CL 88,M,25,Motociclista,Jul,Lun,1,1,20 - 29,2019,1676448,"6,280324952","-75,55184225",03 - Manrique,Las Granjas
+Muertos,14/06/2017,14:30:00,Choque,CR 50 CL 29,M,35,Motociclista,Jun,Mié,14,14,30 - 39,2017,31435,"6,231278199","-75,57528013",15 - Guayabal,Cerro Nutibara
+Muertos,11/01/2019,18:00:00,Atropello,CR 48 A CL 76,M,59,Peatón,Ene,Vie,11,18,50 - 59,2019,1656268,"6,269777174","-75,55762383",04 - Aranjuez,Campo Valdés No. 1
+Muertos,10/08/2015,13:00:00,Atropello,CR 43 F 11 73,M,50,Peatón,Ago,Lun,10,13,50 - 59,2015,1499074,"6,254051085","-75,56242196",10 - La Candelaria,Villa Nueva
+Muertos,12/10/2020,20:40:00,Atropello,CR 62 CL 65,M,35,Peatón,Oct,Lun,12,20,30 - 39,2020,1725863,"6,26351523","-75,57305529",07 - Robledo,Universidad Nacional
+Muertos,6/08/2015,23:51:00,Atropello,CR 83 CL 101 D 08,M,71,Peatón,Ago,Jue,6,23,70 - 79,2015,38768,"6,303248848","-75,58231941",06 - Doce de Octubre,Doce de Octubre No.2
+Muertos,1/08/2016,22:00:00,Choque,CR 32 CL 58A - 26,F,26,Acompañante de Motocicleta,Ago,Lun,1,22,20 - 29,2016,39817,"6,249750109","-75,55208721",08 - Villa Hermosa,Enciso
+Muertos,13/11/2020,20:00:00,Atropello,CL 45 CR 44,M,50,Peatón,Nov,Vie,13,20,50 - 59,2020,1729108,"6,243274657","-75,56667398",10 - La Candelaria,Barrio Colón
+Muertos,2/10/2014,08:15:00,Choque,CR 64 C CL 87 - 90,M,26,Motociclista,Oct,Jue,2,8,20 - 29,2014,80842,"6,280594443","-75,56915238",05 - Castilla,Oleoducto
+Muertos,14/06/2017,14:30:00,Choque,CR 50 CL 29,M,35,Motociclista,Jun,Mié,14,14,30 - 39,2017,31435,"6,231278199","-75,57528013",15 - Guayabal,Cerro Nutibara
+Muertos,7/01/2014,14:20:00,Atropello,CL 58 CR 130,F,67,Peatón,Ene,Mar,7,14,60 - 69,2014,00751,"6,27520546","-75,63489802",60 - Corregimiento de San Cristóbal,La Loma
+Muertos,17/01/2021,09:19:00,Choque,CL 63 CR 42,F,28,Conductor,Ene,Dom,17,9,20 - 29,2021,1735426,"6,2559423","-75,55654283",08 - Villa Hermosa,San Miguel
+Muertos,19/08/2018,21:05:00,Choque,CL 56 CR 29,M,16,Motociclista,Ago,Dom,21,21,10 - 19,2018,23769,"6,246798499","-75,54932242",08 - Villa Hermosa,Sucre
+Muertos,13/02/2021,13:40:00,Choque,CR 50 CL 14,F,26,Motociclista,Feb,Sáb,13,13,20 - 29,2021,1738355,"6,21701737","-75,57826557",15 - Guayabal,Santa Fé
+Muertos,6/02/2014,23:20:00,Atropello,CR 57 CL 46,M,46,Peatón,Feb,Jue,6,23,40 - 49,2014,06596,"6,249125105","-75,57519872",10 - La Candelaria,Guayaquil
+Muertos,4/12/2020,00:40:00,Choque,CR 49 CL 30,M,30,Conductor,Dic,Vie,4,0,30 - 39,2020,1731140,"6,23189862","-75,57438474",10 - La Candelaria,Perpetuo Socorro
+Muertos,29/04/2015,11:30:00,Atropello,CR 52 CL 61 A - 90,F,81,Peatón,Abr,Mié,29,11,80 o más,2015,22879,"6,259826594","-75,5671563",10 - La Candelaria,Jesús Nazareno
+Heridos,22/04/2019,05:50:00,Atropello,CR 65 CL 30,F,22,Acompañante de Motocicleta,Abr,Lun,22,5,20 - 29,2019,1668029,"6,231733973","-75,58272586",15 - Guayabal,Tenche
+Heridos,20/11/2019,23:20:00,Otro,CR 84 CL 40 A,F,37,Acompañante de Motocicleta,Nov,Mié,20,23,30 - 39,2019,1696481,"6,247036116","-75,60561955",12 - La América,Simón Bolívar
+Heridos,31/01/2014,14:25:00,Choque,CR 48 CL 4 Sur,M,30,Motociclista,Ene,Vie,31,14,30 - 39,2014,1427308,"6,203364563","-75,57715757",14 - El Poblado,La Aguacatala
+Heridos,9/11/2014,00:00:00,Choque,CR 52 CL 109 A,M,34,Motociclista,Nov,Dom,9,0,30 - 39,2014,1463879,"6,301011559","-75,55655398",02 - Santa Cruz,La Francia
+Heridos,19/07/2018,11:30:00,Choque,CR 23 CL 107 B,M,28,Motociclista,Jul,Jue,19,11,20 - 29,2018,1635089,"6,294359759","-75,53769894",01 - Popular,La Avanzada
+Heridos,15/08/2019,19:30:00,Choque,CL 75 CR 73,M,19,Motociclista,Ago,Jue,15,19,10 - 19,2019,1682704,"6,275647308","-75,58485881",07 - Robledo,La Pilarica
+Heridos,28/08/2014,06:00:00,Atropello,CR 80 CL 75,M,43,Peatón,Ago,Jue,28,6,40 - 49,2014,1454864,"6,277229113","-75,58943158",07 - Robledo,La Pilarica
+Heridos,14/02/2016,13:00:00,Atropello,CL 42 Sur CR 82,F,16,Peatón,Feb,Dom,14,13,10 - 19,2016,1522910,"6,185682614","-75,65818348",80 - Corregimiento de San Antonio de Prado,Cabecera San Antonio de Prado
+Heridos,4/12/2016,14:10:00,Choque,CR 51 CL 67,F,43,Pasajero,Dic,Dom,4,14,40 - 49,2016,1561987,"6,264078693","-75,56314739",04 - Aranjuez,San Pedro
+Heridos,03/10/2019,05:55:00,Otro,CR 80 CL 53,M,39,Motociclista,Oct,Jue,3,5,30 - 39,2019,1689670,"6,266796897","-75,59597618",11 - Laureles Estadio,Los Colores
+Heridos,14/01/2019,07:00:00,Atropello,CL 39 CR 108,F,49,Peatón,Ene,Lun,14,7,40 - 49,2019,1656604,"6,251380183","-75,62094448",13 - San Javier,Veinte de Julio
+Heridos,29/08/2018,10:00:00,Atropello,CR 36 CL 51,M,42,Peatón,Ago,Mié,29,10,40 - 49,2018,1640962,"6,245846149","-75,55599175",09 - Buenos Aires,Barrio Caicedo
+Heridos,6/03/2015,13:00:00,Caida Ocupante,CR 45 D CL 63,M,15,Acompañante de Motocicleta,Mar,Vie,6,13,10 - 19,2015,1478553,"6,257577742","-75,55851434",08 - Villa Hermosa,La Mansión
+Heridos,12/03/2021,06:45:00,Caida Ocupante,CL 69 CR 45,F,35,Acompañante de motocicleta,Mar,Vie,12,6,30 - 39,2021,1741224,"6,26434189","-75,55538684",04 - Aranjuez,Manrique Central No. 1
+Heridos,25/09/2021,16:30:00,Atropello,CL 66 D CR 37,M,21,Peatón,Sep,Sáb,25,16,20 - 29,2021,1763421,"-75,54935058","6,25854984",08 - Villa Hermosa,Villa Hermosa
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Heridos,27/08/2015,07:00:00,Otro,CR 82 CL 105,F,26,Motociclista,Ago,Jue,27,7,20 - 29,2015,1501223,"6,306716239","-75,57887959",06 - Doce de Octubre,Doce de Octubre No.1
+Heridos,23/07/2015,13:00:00,Atropello,CL 109 CR 51,M,6,Peatón,Jul,Jue,23,13,0 - 9,2015,1496527,"6,300456186","-75,55555487",02 - Santa Cruz,La Francia

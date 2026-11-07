@@ -1,0 +1,86 @@
+# =============================================================================
+# ETL Movilidad Medellín — configuración de fuentes
+# Todas las fuentes son abiertas (CC BY-SA 4.0) y se consultan vía API/HTTP.
+# =============================================================================
+
+paths:
+  raw: data/raw            # copia fiel de lo descargado (auditoría / re-proceso)
+  clean: data/clean        # parquet depurado, particionado por año cuando aplica
+  quarantine: data/quarantine  # registros rechazados con el motivo
+  warehouse: data/warehouse/movilidad_medellin.duckdb
+  snapshots: data/camaras/snapshots
+  reports: data/reports
+
+http:
+  timeout_s: 120
+  retries: 4
+  backoff_s: 3
+  user_agent: "etl-movilidad-medellin/1.0 (uso academico/analitico)"
+
+# Caja envolvente del Distrito de Medellín (urbano + 5 corregimientos).
+# Todo punto fuera de esta caja (y fuera del polígono de comunas) es ruido.
+bbox_medellin:
+  lat_min: 6.15
+  lat_max: 6.38
+  lon_min: -75.72
+  lon_max: -75.47
+
+# Coordenadas "comodín" que el sistema fuente asigna cuando no logra
+# georreferenciar (detectadas en el perfilado: 19.613 incidentes en este punto).
+placeholder_coords:
+  - [-75.7037762763, 6.22141524356]
+
+# --------------------------------------------------------------------------
+# MEData (DKAN) — https://medata.app.medellin.gov.co
+#   metadata:  /api/dataset-fast/{id}         -> distribution[].downloadURL
+#   datastore: /api/1/datastore/sql/?query=[SELECT * FROM {resource}][LIMIT n OFFSET m];
+# --------------------------------------------------------------------------
+medata:
+  base_url: https://medata.app.medellin.gov.co
+  datasets:
+    victimas:       {id: "1-023-25-000360", transform: victimas,   enabled: true}   # dataset principal
+    incidentes:     {id: "1-023-25-000094", transform: incidentes, enabled: true}
+    incidentes_motos: {id: "1-023-25-000277", transform: generic,  enabled: true}
+    aforos:         {id: "1-023-25-000301", transform: generic,    enabled: true}
+    velocidad_gt:   {id: "1-023-25-000287", transform: generic,    enabled: true}
+    velocidad_intensidad: {id: "1-023-25-000296", transform: generic, enabled: false}  # 431k filas
+    comparendos:    {id: "1-023-25-000092", transform: generic,    enabled: false}      # 1,08M filas
+    parque_automotor: {id: "1-023-25-000093", transform: generic,  enabled: false}
+
+# --------------------------------------------------------------------------
+# GeoMedellín (ArcGIS Server 11.5) — capas georreferenciadas
+# --------------------------------------------------------------------------
+arcgis:
+  base_url: https://www.medellin.gov.co/servidormapas/rest/services
+  layers:
+    camaras_cctv:   {path: transporte/VC_Infraest_Gestion_Transito/MapServer/2}  # 81 cámaras circuito cerrado (con link a foto en vivo)
+    camaras_fdt:    {path: transporte/VC_Infraest_Gestion_Transito/MapServer/3}  # 50 cámaras fotodetección (fotomultas)
+    camaras_ars:    {path: transporte/VC_Infraest_Gestion_Transito/MapServer/1}  # 67 cámaras apoyo red semafórica
+    cruces_semaforicos: {path: transporte/VC_Infraest_Gestion_Transito/MapServer/4}  # 724 cruces
+    # Siniestralidad georreferenciada 2019-2025 (heridos y solo daños), actualizada de forma constante
+    # por el Observatorio de Movilidad. Complementa a MEData, que solo publica hasta 2020-2021.
+    siniestralidad: {path: transporte/VM_Accidentes/MapServer/0}
+    comunas:        {path: mapas_nacionales/VC_Limite_Politico_Admtivo/MapServer/1, simplify: 0.0002}
+    barrios:        {path: mapas_nacionales/VC_Limite_Politico_Admtivo/MapServer/0, simplify: 0.0001}
+
+# --------------------------------------------------------------------------
+# Datos complementarios
+# --------------------------------------------------------------------------
+clima:
+  # Open-Meteo Archive (ERA5) — gratis, sin API key. Lluvia horaria en Medellín.
+  url: https://archive-api.open-meteo.com/v1/archive
+  lat: 6.2442
+  lon: -75.5812
+  start: "2014-01-01"
+  hourly: [precipitation, rain, temperature_2m, relative_humidity_2m, cloud_cover, visibility]
+  timezone: America/Bogota
+
+festivos:
+  country: CO    # librería `holidays` (ley Emiliani incluida)
+
+camaras_cctv:
+  snapshot_url: https://www.medellin.gov.co/simm/camaras-cctv/imagen{n}.jpg
+  intervalo_s: 300          # una ronda cada 5 min en modo --loop
+  min_bytes: 8000           # menor a esto = imagen de "sin señal"
+  conteo_vehiculos: false   # true -> requiere `pip install ultralytics` (YOLOv8)
+  yolo_model: yolov8n.pt
